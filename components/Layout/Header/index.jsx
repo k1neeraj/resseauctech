@@ -129,14 +129,14 @@ export default function Header() {
     <header ref={navRef} className="sticky top-0 z-50 w-full">
       <div className={`border-b transition-all duration-300 ${shellClasses}`}>
         <div className="mx-auto max-w-7xl px-4 md:px-6 xl:px-8">
-          <div className="flex min-h-[96px] items-center justify-between gap-4 lg:min-h-[104px]">
+          <div className="flex min-h-[82px] items-center justify-between gap-4 lg:min-h-[88px]">
             <div className="[&_span]:!text-[#111827] [&_.logo-eyebrow]:!text-[#111827]/45">
               <Logo />
             </div>
 
             {/* Desktop nav */}
             <nav
-              className="hidden items-center gap-9 xl:flex"
+              className="hidden items-center gap-7 xl:flex"
               aria-label="Primary navigation"
             >
               {navItems.map((item) => {
@@ -200,8 +200,8 @@ export default function Header() {
 
                     {/* Desktop dropdown */}
                     {hasChildren && open ? (
-                      <div className="absolute left-1/2 top-full z-40 mt-5 w-[340px] -translate-x-1/2">
-                        <div className="rounded-[22px] border border-black/8 bg-white p-3 text-[#111827] shadow-[0_20px_60px_rgba(15,23,42,0.16)]">
+                      <div className="absolute left-1/2 top-full z-40 mt-4 w-[340px] -translate-x-1/2">
+                        <div className="rounded-[20px] border border-black/8 bg-white p-3 text-[#111827] shadow-[0_20px_60px_rgba(15,23,42,0.16)]">
                           <div className="mb-2 px-3 pt-1 text-[11px] font-semibold uppercase tracking-[0.22em] text-[#111827]/40">
                             Services
                           </div>
