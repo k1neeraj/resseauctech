@@ -1,0 +1,271 @@
+@import "tailwindcss";
+
+:root {
+  --font-heading: var(--font-syne);
+  --font-body: var(--font-sora);
+  --font-accent: var(--font-satisfy);
+
+  /* Brand palette */
+  --brand-50: #fff4ec;
+  --brand-100: #ffe4d1;
+  --brand-200: #ffc79f;
+  --brand-300: #ffab6d;
+  --brand-400: #ff8d37;
+  --brand-500: #ff7a1a;
+  --brand-600: #e56708;
+  --brand-700: #b95005;
+
+  /* Neutral palette */
+  --neutral-0: #ffffff;
+  --neutral-50: #f8fafc;
+  --neutral-100: #eef2f6;
+  --neutral-200: #d9e0e7;
+  --neutral-300: #b8c2cc;
+  --neutral-400: #8b97a3;
+  --neutral-500: #5f6b76;
+  --neutral-600: #3d414b;
+  --neutral-700: #27303a;
+  --neutral-800: #161f28;
+  --neutral-900: #111820;
+
+  /* Semantic colors */
+  --color-bg: var(--neutral-0);
+  --color-surface: var(--neutral-0);
+  --color-surface-soft: var(--neutral-50);
+  --color-surface-dark: var(--neutral-900);
+
+  --color-text: #111827;
+  --color-text-soft: rgba(17, 24, 39, 0.82);
+  --color-text-muted: rgba(17, 24, 39, 0.68);
+  --color-text-inverse: #ffffff;
+  --color-text-inverse-soft: rgba(255, 255, 255, 0.82);
+  --color-text-inverse-muted: rgba(255, 255, 255, 0.68);
+
+  --color-border: rgba(17, 24, 39, 0.1);
+  --color-border-soft: rgba(17, 24, 39, 0.08);
+  --color-border-inverse: rgba(255, 255, 255, 0.12);
+  --color-border-inverse-soft: rgba(255, 255, 255, 0.08);
+
+  --color-primary: var(--brand-500);
+  --color-primary-hover: var(--brand-400);
+  --color-primary-strong: var(--brand-600);
+
+  --color-header-transparent-text: var(--color-text-inverse);
+  --color-header-transparent-text-soft: rgba(255, 255, 255, 0.82);
+  --color-header-transparent-border: transparent;
+  --color-header-transparent-bg: transparent;
+
+  --color-header-solid-bg: var(--neutral-0);
+  --color-header-solid-text: var(--color-text);
+  --color-header-solid-text-soft: rgba(17, 24, 39, 0.82);
+  --color-header-solid-border: rgba(17, 24, 39, 0.08);
+
+  --color-menu-dark-bg: rgba(17, 24, 32, 0.92);
+  --color-menu-dark-soft: rgba(255, 255, 255, 0.06);
+  --color-menu-dark-soft-strong: rgba(255, 255, 255, 0.1);
+
+  --shadow-header: 0 10px 35px rgba(15, 23, 42, 0.08);
+  --shadow-dropdown: 0 20px 60px rgba(15, 23, 42, 0.16);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+body {
+  font-family: var(--font-body), sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading), sans-serif;
+}
+
+.font-accent {
+  font-family: var(--font-accent), cursive;
+}
+
+.faq-section {
+  position: relative;
+  padding: 0 0 120px;
+}
+
+@media (max-width: 992px) {
+  .faq-section {
+    padding-bottom: 60px;
+  }
+}
+
+.faq-deco {
+  background-image: url("/img/deco/deco-1.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: absolute;
+  z-index: 0;
+  width: 140px;
+  height: 110px;
+  opacity: 0.18;
+}
+
+@media (max-width: 768px) {
+  .faq-deco {
+    display: none;
+  }
+}
+
+.faq-container {
+  width: 100%;
+  max-width: 1260px;
+  margin-inline: auto;
+  padding-inline: 24px;
+}
+
+.faq-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.faq-tabs > input[type="radio"] {
+  display: none;
+}
+
+.faq-tabs > label {
+  position: relative;
+  order: 1;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  padding: 20px 16px 22px;
+  border-bottom: 1px solid rgba(17, 24, 39, 0.08);
+  color: rgba(17, 24, 39, 0.42);
+  font-family: var(--font-body), sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  transition: 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  .faq-tabs > label {
+    width: 50%;
+  }
+}
+
+@media (max-width: 430px) {
+  .faq-tabs > label {
+    width: 100%;
+  }
+}
+
+.faq-tabs > label::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 0;
+  height: 1px;
+  background: var(--color-primary);
+  transition: 0.3s ease;
+}
+
+.faq-tabs > input[type="radio"]:checked + label {
+  color: rgba(18, 24, 32, 1);
+}
+
+.faq-tabs > input[type="radio"]:checked + label::after {
+  width: 100%;
+}
+
+.faq-tab {
+  order: 99;
+  width: 100%;
+  display: none;
+  padding-top: 100px;
+}
+
+@media (max-width: 992px) {
+  .faq-tab {
+    padding-top: 60px;
+  }
+}
+
+.faq-tabs > input[type="radio"]:checked + label + .faq-tab {
+  display: block;
+}
+
+.faq-accordion {
+  position: relative;
+  width: 100%;
+  cursor: pointer;
+  padding: 18px 0 18px 34px;
+  border-bottom: 1px solid rgba(17, 24, 39, 0.08);
+  transition: 0.3s ease;
+  background: transparent;
+}
+
+.faq-accordion::after {
+  content: "+";
+  position: absolute;
+  left: 0;
+  top: 17px;
+  font-size: 16px;
+  line-height: 1;
+  color: var(--color-primary);
+  transition: 0.3s ease;
+}
+
+.faq-accordion.active::after {
+  content: "-";
+}
+
+.faq-panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.25s ease;
+}
+
+.faq-window {
+  padding: 16px 0 18px 34px;
+}
+
+.faq-window p {
+  margin: 0;
+  max-width: 95%;
+}
+
+/* ClientMarquee */
+@keyframes clientMarquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes clientMarqueeReverse {
+  0% {
+    transform: translateX(-50%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  [style*="clientMarquee"],
+  [style*="clientMarqueeReverse"] {
+    animation: none !important;
+  }
+}
