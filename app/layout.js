@@ -50,9 +50,6 @@ export const metadata = {
   creator: "Resseaux Tech",
   publisher: "Resseaux Tech",
   category: "technology",
-  alternates: {
-    canonical: "/",
-  },
   robots: {
     index: true,
     follow: true,
