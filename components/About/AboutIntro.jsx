@@ -21,18 +21,11 @@ export default function AboutIntro() {
           </h2>
 
           <p className="mt-6 text-base leading-8 text-slate-600 md:text-lg">
-            Over the years, Resseaux Tech has expanded its technical capability
-            across multiple domains and built a delivery model aligned with the
-            needs of enterprise, institutional and public sector environments.
-            The company&apos;s positioning is rooted in practical execution,
-            experienced manpower, and an increasing base of satisfied customers.
+            Resseaux Tech Private Limited is based in New Delhi and works with organisations that need IT infrastructure products and related services. We handle requirements across networking, security, data centre, cloud, virtualization, storage, HCI and power backup.
           </p>
 
           <p className="mt-4 text-base leading-8 text-slate-600 md:text-lg">
-            From network design and endpoint security to cloud, storage, HCI and
-            data center implementation, the focus remains on building stable,
-            scalable and supportable infrastructure environments rather than just
-            supplying products.
+            Whether you are buying equipment, upgrading an existing setup or planning a deployment, share the BOQ or specification, site details and timeline. We can review the scope for product supply and implementation support.
           </p>
 
           <ul className="mt-8 space-y-4">
