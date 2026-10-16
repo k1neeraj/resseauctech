@@ -20,7 +20,7 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: `${service.title} | Resseaux Tech`,
+    title: service.title,
     description: service.description,
     alternates: {
       canonical: `/services/${service.slug}`,
