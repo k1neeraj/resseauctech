@@ -1,17 +1,16 @@
+import { createPageMetadata } from "@/lib/seo";
 import Link from "next/link";
 import PageBanner from "@/components/common/PageBanner";
 import { getAllServices } from "@/app/api/data";
 import RelatedFaqs from "@/components/RelatedFaqs";
 import { pageFaqs } from "@/components/faq/pageFaqs";
 
-export const metadata = {
+export const metadata = createPageMetadata({
   title: "Services",
   description:
     "Explore Resseaux Tech services across network infrastructure, security, cloud, virtualization, storage, HCI and implementation support.",
-  alternates: {
-    canonical: "/services",
-  },
-};
+  path: "/services",
+});
 
 export default function ServicesPage() {
   const services = getAllServices();
