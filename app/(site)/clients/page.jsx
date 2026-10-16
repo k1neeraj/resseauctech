@@ -269,7 +269,7 @@ export default function ClientsPage() {
             Featured organisations
           </div>
           <h2 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
-            A clientele built on trust, compliance and execution
+            Organisations in our client portfolio
           </h2>
           <p className="mt-5 text-base leading-8 text-[#111827]/68">
             Our client portfolio includes organisations from the public sector, defence, research, education, healthcare and infrastructure. We work on IT product and service requirements across these environments.
@@ -309,7 +309,7 @@ export default function ClientsPage() {
               Sector coverage
             </div>
             <h2 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
-              Serving high-trust and mission-critical environments
+              Sectors we work across
             </h2>
             <p className="mt-5 text-base leading-8 text-[#111827]/68">
               We work with organisations across defence, government, research, healthcare, education, energy and enterprise. The product and service scope depends on each organisation’s requirement.
@@ -361,7 +361,7 @@ export default function ClientsPage() {
               Client network
             </div>
             <h2 className="mt-3 text-3xl font-semibold tracking-tight md:text-4xl">
-              Broad organisational reach across India
+              Organisations across multiple sectors
             </h2>
             <p className="mt-5 text-base leading-8 text-[#111827]/68">
               Our listed organisations include ministries, research bodies, defence institutions, public-sector enterprises, universities, regulatory agencies and infrastructure organisations.
