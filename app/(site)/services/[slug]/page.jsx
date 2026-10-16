@@ -76,15 +76,15 @@ export default async function ServiceDetailPage({ params }) {
       : [
           {
             title: "Assess",
-            text: "Understand the environment, current gaps, business priorities and deployment constraints.",
+            text: "Review the current setup, required equipment, site locations and installation constraints.",
           },
           {
             title: "Plan",
-            text: "Map the technical scope, solution direction, dependencies and implementation sequence.",
+            text: "Confirm the product list, installation tasks, dependencies and rollout schedule.",
           },
           {
             title: "Execute",
-            text: "Support rollout, coordination, documentation and continuity for long-term operational stability.",
+            text: "Coordinate the agreed installation tasks, testing, documentation and handover.",
           },
         ];
 
@@ -102,7 +102,7 @@ export default async function ServiceDetailPage({ params }) {
             </span>
 
             <h2 className="mt-4 text-3xl font-semibold leading-tight text-slate-900 md:text-5xl">
-              {title} built around practical planning, execution and support.
+              {title} for new projects, upgrades and existing systems.
             </h2>
 
             {intro && (
@@ -117,7 +117,7 @@ export default async function ServiceDetailPage({ params }) {
 
             <p className="mt-4 text-base leading-8 text-slate-600 md:text-lg">
               {overview ||
-                "Resseaux Tech approaches every service area with a requirement-first mindset, helping organizations align procurement, deployment and long-term support with actual operating conditions. The emphasis remains on dependable execution, technical clarity and stable infrastructure outcomes."}
+                "Tell us the products or services you need, which sites are involved and what work is required. We can review the scope for supply, installation or related support."}
             </p>
 
             {/* Scope of delivery */}
@@ -188,7 +188,7 @@ export default async function ServiceDetailPage({ params }) {
             {/* Engagement approach */}
             <div className="mt-10 rounded-[28px] border border-slate-200 bg-white p-6 shadow-sm md:p-8">
               <h3 className="text-2xl font-semibold text-slate-900">
-                Typical engagement approach
+                How we handle the requirement
               </h3>
 
               <div className="mt-6 grid gap-4 md:grid-cols-3">
@@ -238,7 +238,7 @@ export default async function ServiceDetailPage({ params }) {
           <aside className="lg:sticky lg:top-28 lg:self-start">
             <div className="rounded-[28px] border border-slate-200 bg-white p-6 shadow-sm">
               <p className="text-sm font-semibold uppercase tracking-[0.18em] text-orange-500">
-                Included Focus Areas
+                Products and services covered
               </p>
 
               <ul className="mt-5 space-y-3">
@@ -254,19 +254,19 @@ export default async function ServiceDetailPage({ params }) {
 
               <div className="mt-8 rounded-2xl bg-slate-900 p-5 text-white">
                 <p className="text-sm font-semibold uppercase tracking-[0.18em] text-orange-400">
-                  {ctaTitle || "Need a discussion?"}
+                  {ctaTitle || "Request a Quote"}
                 </p>
 
                 <p className="mt-3 text-sm leading-7 text-slate-300">
                   {ctaText ||
-                    "Share your infrastructure requirement and our team can help map the right service direction for your environment."}
+                    "Share your BOQ or specification, quantities, site location and timeline to discuss the scope."}
                 </p>
 
                 <Link
                   href="/contact"
                   className="mt-5 inline-flex items-center gap-2 text-sm font-semibold uppercase tracking-[0.12em] text-white transition-colors duration-200 hover:text-orange-400"
                 >
-                  Contact Us
+                  Request a Quote
                   <span aria-hidden="true">→</span>
                 </Link>
               </div>
