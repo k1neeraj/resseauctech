@@ -2,7 +2,7 @@
 
 Production website for **Resseaux Tech Private Limited**, built with Next.js. The site presents IT infrastructure products and services, supports customer enquiries through a server-side contact form, and publishes service pages and buyer-focused articles.
 
-[Website](https://www.resseauxtech.com) · [Deployment & Project Guide](docs/PROJECT-DEPLOYMENT-GUIDE.md) · [Google Search Console setup](docs/PROJECT-DEPLOYMENT-GUIDE.md#google-search-console)
+[Website](https://www.resseauxtech.com) · [Deployment & Project Guide](docs/PROJECT-DEPLOYMENT-GUIDE.md) · [Google Search Console setup](docs/PROJECT-DEPLOYMENT-GUIDE.md#google-search-console) · [Dependency Maintenance](docs/DEPENDENCY-MAINTENANCE.md)
 
 [![Next.js build](https://github.com/k1neeraj/resseauctech/actions/workflows/next-build.yml/badge.svg?branch=main)](https://github.com/k1neeraj/resseauctech/actions/workflows/next-build.yml)
 
@@ -65,6 +65,12 @@ See [.env.example](.env.example). Keep real values in local environment files or
 | GOOGLE_SITE_VERIFICATION | Optional Google Search Console HTML-tag token for URL-prefix verification |
 
 The contact handler currently sends through Gmail SMTP on port 465. Configure SMTP credentials on the deployment target and test the form after every first deployment or mail-setting change.
+
+## Dependency maintenance
+
+The direct dependencies were refreshed and validated on 16 October 2026. The updater checks current stable releases, validates the pnpm lockfile, runs a high-severity security audit and builds the production app before committing updated versions to `main`.
+
+See the [dependency audit and maintenance guide](docs/DEPENDENCY-MAINTENANCE.md) for the exact versions, validation results and steps to run the workflow again from GitHub Actions.
 
 ## Where content lives
 
