@@ -38,7 +38,7 @@ const preferenceItems = [
 ];
 
 export const metadata = {
-  title: "Cookie Policy | Resseaux Tech",
+  title: "Cookie Policy",
   description:
     "Read the Cookie Policy of Resseaux Tech to understand how cookies, embedded services and related technologies may be used on this website.",
   alternates: {
