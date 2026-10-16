@@ -7,153 +7,153 @@ import ContactForm from "@/components/ContactForm";
 const faqTabs = [
   {
     id: "information",
-    label: "Information",
+    label: "Products & Services",
     eyebrow: "About Resseaux Tech",
-    title: "IT infrastructure support built for modern organizations.",
+    title: "IT products and implementation support for your project.",
     description:
-      "We help businesses plan, deploy, and support secure environments across networking, cloud, virtualization, storage, HCI, and related enterprise systems.",
-    noteTitle: "Need clarity before starting?",
+      "We work across networking, security, servers, storage, cloud, virtualization, HCI, UPS and batteries. Share what you need and where it has to be delivered.",
+    noteTitle: "Looking for a quote?",
     noteText:
-      "Share your current setup, business goals, or technical pain points and we can guide you toward the right implementation path.",
+      "Send the BOQ or specification, quantities, delivery location and target date. We will follow up if we need any details clarified.",
     items: [
       {
-        question: "What does Resseaux Tech do?",
+        question: "What does Resseaux Tech supply and support?",
         answer:
-          "Resseaux Tech is an IT infrastructure solution provider and system integrator supporting businesses across network design, security, data center services, cloud services, virtualization, storage, HCI, and implementation support.",
+          "We handle requirements across network design and implementation, security, data centre, cloud, virtualization, storage, HCI, UPS, batteries and related IT infrastructure support.",
       },
       {
-        question: "Do you only supply products or also handle implementation?",
+        question: "Can you provide products as well as installation?",
         answer:
-          "We support more than procurement. Depending on the project scope, we can help with assessment, architecture planning, deployment, configuration, integration, documentation, and support.",
+          "Yes. Tell us whether you need equipment supply only or also require installation, configuration, integration, testing or handover.",
       },
       {
-        question: "Which types of organizations do you usually work with?",
+        question: "Do you work with government and institutional buyers?",
         answer:
-          "Our services are suitable for businesses, institutions, and multi-location organizations that need secure connectivity, stable infrastructure, and scalable technology foundations.",
+          "We consider government, institutional and enterprise requirements against the relevant project scope and tender conditions. Share the BOQ or bid documents when requesting a quote.",
       },
       {
-        question: "Can you work with our existing OEM ecosystem?",
+        question: "Can you quote a specific OEM or model?",
         answer:
-          "Yes. We can align with an existing OEM stack or evaluate alternatives based on support, cost, performance, and long-term maintainability.",
+          "Yes. Include the preferred OEM and model or the required technical specification. The proposed supply will depend on the project conditions and product requirements.",
       },
       {
-        question: "Do you support projects outside Delhi?",
+        question: "Do you work outside Delhi?",
         answer:
-          "The company is based in New Delhi, but the delivery model can support broader location-based requirements depending on scope and execution planning.",
+          "Our office is in New Delhi and we consider requirements across India based on the product, site locations and delivery scope.",
       },
     ],
   },
   {
     id: "pricing",
-    label: "Pricing Plans",
-    eyebrow: "Commercial clarity",
-    title: "Pricing depends on scope, scale, and complexity.",
+    label: "Pricing & Quotes",
+    eyebrow: "Request pricing",
+    title: "Get a quote based on your actual requirement.",
     description:
-      "Infrastructure projects are rarely one-size-fits-all. Final commercials depend on the number of sites, endpoints, OEM mix, implementation depth, and support expectations.",
-    noteTitle: "Want an estimate?",
+      "Pricing depends on the product or service, quantities, delivery locations and whether the job includes installation or ongoing support.",
+    noteTitle: "Have a BOQ ready?",
     noteText:
-      "The fastest way to get a useful proposal is to share your environment size, current issues, and expected outcomes.",
+      "Attach it to your enquiry and tell us the delivery location, preferred OEM and expected timeline.",
     items: [
       {
-        question: "Can I request a quotation before starting?",
+        question: "What should I send for a quotation?",
         answer:
-          "Yes. Once the technical scope is understood, a proposal can be prepared according to the project requirement and expected delivery model.",
+          "Share the BOQ or specification, quantities, preferred OEM or model, delivery location, required date and any installation or support needs.",
       },
       {
-        question: "Do you offer fixed packages for every service?",
+        question: "Can you provide a price before the full scope is known?",
         answer:
-          "Not always. Some focused assignments can be priced quickly, but broader infrastructure work usually needs technical scoping before final commercials are shared.",
+          "We can review the details available. A firm quote may need confirmed quantities, technical requirements, delivery details and the agreed service scope.",
       },
       {
-        question: "What affects the final project cost?",
+        question: "What affects the final price?",
         answer:
-          "Cost usually depends on service category, number of users or devices, number of sites, OEM selection, urgency, integration depth, and whether ongoing support is included.",
+          "The OEM and model, quantities, licences, accessories, delivery locations, installation, warranty and support requirements can all affect the total.",
       },
       {
-        question: "Can implementation and AMC be handled separately?",
+        question: "Can implementation and AMC be quoted separately?",
         answer:
-          "Yes. Some clients begin with deployment only and later move into a support or AMC structure once the environment is stable.",
+          "Yes. Tell us whether you need equipment only, implementation, ongoing support or a combination, and we can review the requested scope.",
       },
       {
-        question: "Do you handle both small and large projects?",
+        question: "Do you review both small and multi-site requirements?",
         answer:
-          "Yes. Focused assignments and larger rollout programs can both be supported as long as the scope is properly defined from the beginning.",
+          "We review each enquiry against the products, quantities, locations, timeline and services involved. Include those details so we can assess the scope.",
       },
     ],
   },
   {
     id: "delivery",
     label: "Project Support",
-    eyebrow: "Planning and delivery",
-    title: "From the initial requirement to handover.",
+    eyebrow: "Supply and implementation",
+    title: "From equipment supply to deployment.",
     description:
-      "Good infrastructure work starts with a clear scope, a realistic plan and a smooth handover to the team that will use the system.",
+      "Tell us which parts of the job you need help with: equipment, installation, configuration, integration, testing, documentation or maintenance.",
     noteTitle: "Planning a project?",
     noteText:
-      "Share the main requirement, site details and expected timeline to start the discussion.",
+      "Share the project scope, site locations, current setup and expected completion date.",
     items: [
       {
-        question: "What happens after I share a requirement?",
+        question: "What happens after I send a requirement?",
         answer:
-          "The team can review the scope, ask for any missing details and discuss the next steps based on the project.",
+          "We review the information, ask for any missing details and discuss the next steps for the requested products or services.",
       },
       {
-        question: "Will you work with our existing systems?",
+        question: "Can you work with equipment we already have?",
         answer:
-          "Yes, where the requirements and compatibility allow it. Details of the current setup help us understand what needs to connect or change.",
+          "Tell us the current make, model and setup, plus what needs to be added or changed. Compatibility and the agreed scope will determine the options.",
       },
       {
-        question: "Do you provide documentation after installation?",
+        question: "Can installation and configuration be included?",
         answer:
-          "Documentation and handover can be included in the agreed project scope so your team understands the setup and how it is intended to operate.",
+          "Mention the work required in your enquiry. We can review installation, configuration, integration, testing and handover alongside the equipment scope.",
       },
       {
-        question: "Can support be arranged after deployment?",
+        question: "Can I ask about support after deployment?",
         answer:
-          "Yes. Ongoing support or maintenance can be discussed separately, depending on the system and the level of support required.",
+          "Yes. Include the equipment list, locations, current warranty status and the type of maintenance or support you need.",
       },
       {
-        question: "What should I prepare before the first discussion?",
+        question: "What should I prepare before contacting you?",
         answer:
-          "A brief description of the requirement, site locations, existing setup and target timeline is enough to get started. Technical specifications are helpful if available.",
+          "A BOQ or specification, quantities, preferred OEM, site locations and timeline are a useful starting point. Tell us about any installation or support needs too.",
       },
     ],
   },
   {
     id: "security",
-    label: "Security",
-    eyebrow: "Built into the stack",
-    title: "Security works best when planned from the start.",
+    label: "Security Solutions",
+    eyebrow: "Firewalls and endpoint security",
+    title: "Security products matched to your environment.",
     description:
-      "Access control, network hygiene, resilience, and hardening should be part of infrastructure planning early rather than added later as an isolated layer.",
-    noteTitle: "Planning an upgrade?",
+      "The right requirement depends on users, sites, internet links, existing equipment, licence term and the support needed after installation.",
+    noteTitle: "Requesting a security quote?",
     noteText:
-      "A structured review of the current setup usually reveals the highest-impact improvements before large investments are made.",
+      "Share the current firewall or security setup, the required features, preferred OEM and licence or support term.",
     items: [
       {
-        question: "What kind of security support can be included?",
+        question: "What security products can I enquire about?",
         answer:
-          "Security support can include network-oriented protection, access structure planning, environment hardening, endpoint-related considerations, and broader infrastructure risk reduction depending on scope.",
+          "You can enquire about firewall solutions, endpoint protection and related security requirements as part of an office or wider IT infrastructure project.",
       },
       {
-        question: "Can you review our current setup for gaps?",
+        question: "Can you quote for an existing network upgrade?",
         answer:
-          "Yes. Reviewing the current environment is often the first step in identifying misconfigurations, weak controls, and priority areas for improvement.",
+          "Yes. Share the current devices, number of users and locations, internet links and what needs to change.",
       },
       {
-        question: "Do you consider continuity and recovery in planning?",
+        question: "Do I need to include licence and support terms?",
         answer:
-          "Where relevant, redundancy, backup thinking, failover, and recovery preparedness should be considered alongside performance and security objectives.",
+          "Yes. State the required subscription period, OEM support, renewal expectations and any deployment services requested.",
       },
       {
-        question: "Can security be part of a larger infrastructure project?",
+        question: "Can security be part of a larger infrastructure order?",
         answer:
-          "Yes. In many environments, integrating security into the broader network or infrastructure design gives better long-term results than treating it as a separate add-on.",
+          "Yes. Include the security products and related requirements in the BOQ, along with any network, server or implementation work that must be coordinated.",
       },
       {
-        question: "Can legacy environments be modernized more securely?",
+        question: "Can installation or configuration be included?",
         answer:
-          "Yes. Modernization can improve resilience, architecture, access control, and operational stability together when it is planned properly.",
+          "Mention whether you need policy configuration, migration, testing or integration with existing systems so the requested scope is clear.",
       },
     ],
   },
