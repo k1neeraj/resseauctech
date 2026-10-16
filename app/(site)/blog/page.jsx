@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import PageBanner from "@/components/common/PageBanner";
 import { getAllPosts, getAllCategories, getRecentPosts } from "@/app/api/data";
@@ -37,9 +38,12 @@ export default function BlogPage() {
                     className="group block overflow-hidden rounded-3xl border border-slate-200 bg-white transition duration-300 hover:-translate-y-1 hover:shadow-xl"
                   >
                     <div className="overflow-hidden">
-                      <img
+                      <Image
                         src={post.cover}
                         alt={post.title}
+                        width={1200}
+                        height={630}
+                        sizes="(max-width: 1024px) 100vw, 70vw"
                         className="h-[240px] w-full object-cover transition duration-500 group-hover:scale-[1.03]"
                       />
                     </div>
