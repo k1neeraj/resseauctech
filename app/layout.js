@@ -71,9 +71,7 @@ export const metadata = {
       "IT infrastructure, security, cloud, networking, server, storage, and deployment solutions for organisations across India.",
     images: [
       {
-        url: "/img/logo/logo.png",
-        width: 1200,
-        height: 630,
+        url: "/img/homebanner/banner.png",
         alt: "Resseaux Tech - IT Infrastructure Solutions",
       },
     ],
@@ -83,7 +81,7 @@ export const metadata = {
     title: "Resseaux Tech | IT Infrastructure Solutions India",
     description:
       "IT infrastructure, security, cloud, networking, server, storage, and deployment solutions for organisations across India.",
-    images: ["/img/logo/logo.png"],
+    images: ["/img/homebanner/banner.png"],
   },
   icons: {
     icon: "/img/logo/RTPLSquareLogo.png",
