@@ -16,21 +16,21 @@ const partners = [
     logo: "/partners/dell.png",
     website: "https://www.dell.com/en-in/lp",
     description:
-      "Enterprise compute, endpoint infrastructure and business technology deployments across modern environments.",
+      "Servers, storage, desktops, laptops and business IT equipment for enterprise and institutional requirements.",
   },
   {
     name: "HP",
     logo: "/partners/hp.png",
     website: "https://www.hp.com/in-en/home.html",
     description:
-      "Business devices, print ecosystems and workplace technology solutions for operational needs.",
+      "Business desktops, laptops, workstations and printing equipment.",
   },
   {
     name: "Cisco",
     logo: "/partners/cisco.png",
     website: "https://www.cisco.com/site/in/en/index.html",
     description:
-      "Networking, switching, routing and secure connectivity solutions for enterprise and institutional projects.",
+      "Network switches, routers, wireless connectivity and related enterprise networking equipment.",
   },
   {
     name: "Acceleron Labs",
@@ -44,70 +44,70 @@ const partners = [
     logo: "/partners/socomec.png",
     website: "https://www.socomec.co.in/en-in",
     description:
-      "Critical power, UPS systems and electrical infrastructure support for continuity-focused environments.",
+      "UPS systems and critical-power equipment for IT rooms, offices and facilities.",
   },
   {
     name: "Vertiv",
     logo: "/partners/vertiv.png",
     website: "https://www.vertiv.com/en-in/",
     description:
-      "Power, cooling and data-center infrastructure solutions for resilient enterprise operations.",
+      "Power, cooling and data-centre equipment for server rooms and enterprise facilities.",
   },
   {
     name: "Numeric UPS",
     logo: "/partners/numeric-ups.png",
     website: "https://www.numericups.com/",
     description:
-      "Reliable UPS and backup power systems for offices, facilities and critical installations.",
+      "UPS and backup-power systems for office and IT loads.",
   },
   {
     name: "NED",
     logo: "/partners/ned.png",
     website: "https://www.nedenergy.in/",
     description:
-      "Battery and power-support solutions aligned to backup, uptime and operational continuity requirements.",
+      "Battery options for backup-power requirements, based on the system and required capacity.",
   },
   {
     name: "Exide",
     logo: "/partners/exide.png",
     website: "https://www.exideindustries.com/",
     description:
-      "Battery-backed continuity solutions for backup power and essential infrastructure support.",
+      "Batteries for inverter, UPS and other backup-power requirements.",
   },
   {
     name: "HBL",
     logo: "/partners/hbl.png",
     website: "https://hbl.in/",
     description:
-      "Industrial battery and energy support solutions for performance-sensitive deployments.",
+      "Industrial batteries for backup-power and infrastructure applications.",
   },
   {
     name: "Leoch",
     logo: "/partners/leoch.png",
     website: "https://www.leoch.com/",
     description:
-      "Power storage and battery support solutions for backup and infrastructure continuity systems.",
+      "Battery products for UPS and backup-power systems.",
   },
   {
     name: "Broadcom",
     logo: "/partners/broadcom.png",
     website: "https://www.broadcom.com/",
     description:
-      "Enterprise technology and infrastructure software support for scalable IT environments.",
+      "Enterprise software and infrastructure technologies for business IT environments.",
   },
   {
     name: "Nutanix",
     logo: "/partners/nutanix.png",
     website: "https://www.nutanix.com/",
     description:
-      "Hyperconverged and modern infrastructure solutions for simplified, scalable enterprise operations.",
+      "Hyperconverged infrastructure and software for consolidating compute, storage and virtualisation.",
   },
   {
     name: "Exicom",
     logo: "/partners/exicom.png",
     website: "https://www.exicom.com/",
     description:
-      "Power and energy-focused infrastructure support for uptime-driven business environments.",
+      "Power and energy products for infrastructure and commercial applications.",
   },
 ];
 
