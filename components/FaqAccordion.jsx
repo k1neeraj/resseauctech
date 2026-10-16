@@ -43,13 +43,15 @@ export default function FaqAccordion({ items = [], className = "" }) {
               </button>
             </h3>
 
-            {isOpen && (
-              <div id={answerId} className="px-5 pb-5 sm:px-6 sm:pb-6">
-                <p className="max-w-4xl pr-2 text-sm leading-7 text-[#374151]">
-                  {item.answer}
-                </p>
-              </div>
-            )}
+            <div
+              id={answerId}
+              hidden={!isOpen}
+              className={isOpen ? "px-5 pb-5 sm:px-6 sm:pb-6" : "hidden"}
+            >
+              <p className="max-w-4xl pr-2 text-sm leading-7 text-[#374151]">
+                {item.answer}
+              </p>
+            </div>
           </div>
         );
       })}
