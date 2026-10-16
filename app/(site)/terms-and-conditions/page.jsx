@@ -4,6 +4,9 @@ export const metadata = {
   title: "Terms & Conditions",
   description:
     "Read the Terms & Conditions governing your use of the Resseaux Tech website and related services.",
+  alternates: {
+    canonical: "/terms-and-conditions",
+  },
 };
 
 export default function TermsAndConditionsPage() {
