@@ -1,3 +1,4 @@
+import { createPageMetadata } from "@/lib/seo";
 import Image from "next/image";
 import Link from "next/link";
 import PageBanner from "@/components/common/PageBanner";
@@ -5,14 +6,12 @@ import { getAllPosts, getAllCategories, getRecentPosts } from "@/app/api/data";
 import RelatedFaqs from "@/components/RelatedFaqs";
 import { pageFaqs } from "@/components/faq/pageFaqs";
 
-export const metadata = {
+export const metadata = createPageMetadata({
   title: "Blog",
   description:
     "Read Resseaux Tech insights on GeM procurement, IT infrastructure, networking, power backup, security, and deployment planning for organisations.",
-  alternates: {
-    canonical: "/blog",
-  },
-};
+  path: "/blog",
+});
 
 export default function BlogPage() {
   const posts = getAllPosts();
