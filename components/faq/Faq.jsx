@@ -8,27 +8,27 @@ const faqData = [
   {
     question: "What services does Resseaux Tech provide?",
     answer:
-      "We provide enterprise IT infrastructure solutions including network design, data center setup, cloud infrastructure, cyber security, and virtualization."
+      "We work across network design and implementation, data centre, security, cloud, virtualization, storage, HCI and related IT infrastructure services."
   },
   {
     question: "Do you work with government projects?",
     answer:
-      "Yes, we handle enterprise and government-level IT infrastructure and system integration projects."
+      "Yes. We consider government, institutional and enterprise requirements based on the project scope and applicable tender conditions."
   },
   {
     question: "Where is your company located?",
     answer:
-      "We are based in New Delhi, India and serve clients globally."
+      "We are based in New Delhi and consider requirements across India, depending on the products, site locations and service scope."
   },
   {
     question: "Do you offer cloud solutions?",
     answer:
-      "Yes, we provide scalable cloud infrastructure solutions including AWS, Azure, and hybrid environments."
+      "We discuss cloud and hybrid infrastructure requirements based on the workloads, existing environment and project scope."
   },
   {
     question: "How can we contact you?",
     answer:
-      "You can reach us via our contact page or email us at contact@resseauxtech.com."
+      "Use the contact page or email info@resseauxtech.com."
   }
 ];
 
