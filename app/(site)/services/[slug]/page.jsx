@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import PageBanner from "@/components/common/PageBanner";
+import FaqAccordion from "@/components/FaqAccordion";
 import { getAllServices, getServiceBySlug } from "@/app/api/data";
 
 export function generateStaticParams() {
@@ -214,22 +215,7 @@ export default async function ServiceDetailPage({ params }) {
                 <h3 className="text-2xl font-semibold text-slate-900">
                   Common questions
                 </h3>
-
-                <div className="mt-6 space-y-4">
-                  {faqs.map((faq) => (
-                    <div
-                      key={faq.question}
-                      className="rounded-2xl border border-slate-200 bg-slate-50 p-5"
-                    >
-                      <h4 className="text-base font-semibold text-slate-900">
-                        {faq.question}
-                      </h4>
-                      <p className="mt-3 text-sm leading-7 text-slate-700">
-                        {faq.answer}
-                      </p>
-                    </div>
-                  ))}
-                </div>
+                <FaqAccordion items={faqs} className="mt-6" />
               </div>
             )}
           </div>
