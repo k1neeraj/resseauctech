@@ -1,3 +1,4 @@
+import { createPageMetadata } from "@/lib/seo";
 import PageBanner from "@/components/common/PageBanner";
 import Link from "next/link";
 import RelatedFaqs from "@/components/RelatedFaqs";
@@ -39,14 +40,12 @@ const preferenceItems = [
   "We may update this Cookie Policy if website tools, integrations or functionality change over time.",
 ];
 
-export const metadata = {
+export const metadata = createPageMetadata({
   title: "Cookie Policy",
   description:
     "Read the Cookie Policy of Resseaux Tech to understand how cookies, embedded services and related technologies may be used on this website.",
-  alternates: {
-    canonical: "/cookie-policy",
-  },
-};
+  path: "/cookie-policy",
+});
 
 export default function CookiePolicyPage() {
   return (
