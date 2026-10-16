@@ -68,9 +68,7 @@ const WhyChooseResseaux = () => {
           </h2>
 
           <p className="mt-[18px] max-w-[680px] text-[16px] leading-[1.9] text-[rgba(18,24,32,0.62)] max-[768px]:text-[15px]">
-            We support infrastructure projects with planning discipline, deployment awareness,
-            ecosystem alignment and long-term operational thinking across enterprise and
-            institutional environments.
+            We can discuss the required equipment, delivery scope, installation and ongoing support against your project requirements.
           </p>
         </div>
 
