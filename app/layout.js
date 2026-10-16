@@ -49,6 +49,9 @@ export const metadata = {
   authors: [{ name: "Resseaux Tech" }],
   creator: "Resseaux Tech",
   publisher: "Resseaux Tech",
+  verification: {
+    google: process.env.GOOGLE_SITE_VERIFICATION || undefined,
+  },
   category: "technology",
   robots: {
     index: true,
