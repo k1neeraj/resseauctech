@@ -1,8 +1,14 @@
+"use client";
+
+import { useState } from "react";
+
 export default function RelatedFaqs({
   items = [],
   title = "Frequently Asked Questions",
   description = "Helpful answers about this page and the next steps.",
 }) {
+  const [openIndex, setOpenIndex] = useState(items.length ? 0 : -1);
+
   if (!items.length) return null;
 
   return (
@@ -26,26 +32,50 @@ export default function RelatedFaqs({
           </p>
         </div>
 
-        <div className="mt-8 grid gap-4 lg:grid-cols-2">
-          {items.map((item) => (
-            <details
-              key={item.question}
-              className="group rounded-[20px] border border-black/10 bg-white p-5 shadow-sm transition-colors open:border-[#ff7a1a]/40 sm:p-6"
-            >
-              <summary className="flex cursor-pointer list-none items-start justify-between gap-4 rounded-md text-base font-semibold leading-7 text-[#111827] outline-none focus-visible:ring-2 focus-visible:ring-[#ff7a1a] focus-visible:ring-offset-4 [&::-webkit-details-marker]:hidden">
-                <span>{item.question}</span>
-                <span
-                  aria-hidden="true"
-                  className="mt-0.5 inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#fff2e8] text-lg leading-none text-[#b95408] transition-transform duration-200 group-open:rotate-45"
-                >
-                  +
-                </span>
-              </summary>
-              <p className="mt-4 pr-2 text-sm leading-7 text-[#374151]">
-                {item.answer}
-              </p>
-            </details>
-          ))}
+        <div className="mt-8 max-w-5xl space-y-3">
+          {items.map((item, index) => {
+            const isOpen = openIndex === index;
+            const answerId = `related-faq-answer-${index}`;
+
+            return (
+              <div
+                key={item.question}
+                className={`rounded-[20px] border bg-white shadow-sm transition-colors duration-200 ${
+                  isOpen
+                    ? "border-[#ff7a1a]/50"
+                    : "border-black/10 hover:border-[#ff7a1a]/30"
+                }`}
+              >
+                <h3>
+                  <button
+                    type="button"
+                    aria-expanded={isOpen}
+                    aria-controls={answerId}
+                    onClick={() => setOpenIndex(isOpen ? -1 : index)}
+                    className="flex w-full cursor-pointer items-start justify-between gap-4 rounded-[20px] px-5 py-5 text-left text-base font-semibold leading-7 text-[#111827] outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-[#ff7a1a] sm:px-6 sm:py-5"
+                  >
+                    <span>{item.question}</span>
+                    <span
+                      aria-hidden="true"
+                      className={`mt-0.5 inline-flex h-7 w-7 shrink-0 items-center justify-center rounded-full bg-[#fff2e8] text-lg leading-none text-[#b95408] transition-transform duration-200 ${
+                        isOpen ? "rotate-45" : ""
+                      }`}
+                    >
+                      +
+                    </span>
+                  </button>
+                </h3>
+
+                {isOpen && (
+                  <div id={answerId} className="px-5 pb-5 sm:px-6 sm:pb-6">
+                    <p className="max-w-4xl pr-2 text-sm leading-7 text-[#374151]">
+                      {item.answer}
+                    </p>
+                  </div>
+                )}
+              </div>
+            );
+          })}
         </div>
       </div>
     </section>
