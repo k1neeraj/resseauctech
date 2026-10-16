@@ -1,3 +1,4 @@
+import { createPageMetadata } from "@/lib/seo";
 import Image from "next/image";
 import AboutIntro from "@/components/About/AboutIntro";
 import PageBanner from "@/components/common/PageBanner";
@@ -7,14 +8,12 @@ import React from "react";
 import RelatedFaqs from "@/components/RelatedFaqs";
 import { pageFaqs } from "@/components/faq/pageFaqs";
 
-export const metadata = {
+export const metadata = createPageMetadata({
   title: "IT Infrastructure Company in India",
   description:
     "Learn about Resseaux Tech, a director-led IT infrastructure organisation delivering networking, server, storage, cloud, and security solutions for organisations across India.",
-  alternates: {
-    canonical: "/about",
-  },
-};
+  path: "/about",
+});
 
 const directors = [
   {
