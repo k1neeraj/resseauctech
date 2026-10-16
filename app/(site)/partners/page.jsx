@@ -1,4 +1,6 @@
 import Image from "next/image";
+import RelatedFaqs from "@/components/RelatedFaqs";
+import { pageFaqs } from "@/components/faq/pageFaqs";
 
 export const metadata = {
   title: "Partners",
@@ -189,6 +191,11 @@ export default function PartnersPage() {
           ))}
         </div>
       </section>
+      <RelatedFaqs
+        items={pageFaqs.partners}
+        title="Technology partner FAQs"
+        description="How OEM fit, authorisations and procurement requirements should be checked for each opportunity."
+      />
     </main>
   );
 }
