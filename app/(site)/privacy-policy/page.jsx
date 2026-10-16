@@ -1,4 +1,6 @@
 import PageBanner from "@/components/common/PageBanner";
+import RelatedFaqs from "@/components/RelatedFaqs";
+import { pageFaqs } from "@/components/faq/pageFaqs";
 
 export const metadata = {
   title: "Privacy Policy",
@@ -133,6 +135,11 @@ export default function PrivacyPolicyPage() {
           </div>
         </div>
       </section>
+      <RelatedFaqs
+        items={pageFaqs.privacyPolicy}
+        title="Privacy policy FAQs"
+        description="Quick answers about enquiry information and sending sensitive business material."
+      />
     </>
   );
 }
