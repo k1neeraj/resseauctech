@@ -1,16 +1,15 @@
+import { createPageMetadata } from "@/lib/seo";
 import PageBanner from "@/components/common/PageBanner";
 import Link from "next/link";
 import RelatedFaqs from "@/components/RelatedFaqs";
 import { pageFaqs } from "@/components/faq/pageFaqs";
 
-export const metadata = {
+export const metadata = createPageMetadata({
   title: "Careers",
   description:
     "Explore career opportunities at Resseaux Tech. We are hiring experienced sales professionals for government, institutional, and enterprise IT infrastructure business.",
-  alternates: {
-    canonical: "/careers",
-  },
-};
+  path: "/careers",
+});
 
 const openRole = {
   title: "Sales Manager – Government / Institutional Business",
