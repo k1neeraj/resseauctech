@@ -7,6 +7,8 @@ import CtaBand from "@/components/sections/CtaBand";
 import Insights from "@/components/sections/Insights";
 import Services from "@/components/sections/Services";
 import WhyChooseResseaux from "@/components/sections/WhyChooseResseaux";
+import RelatedFaqs from "@/components/RelatedFaqs";
+import { pageFaqs } from "@/components/faq/pageFaqs";
 
 export const metadata = {
   alternates: {
@@ -37,6 +39,11 @@ export default function Home() {
       <WhyChooseResseaux />
       <Insights />
       <Certifications />
+      <RelatedFaqs
+        items={pageFaqs.home}
+        title="Questions about Resseaux Tech"
+        description="Quick answers about service scope, procurement requirements and sharing project information."
+      />
       <CtaBand />
     </div>
   );
