@@ -9,7 +9,7 @@ import { pageFaqs } from "@/components/faq/pageFaqs";
 export const metadata = createPageMetadata({
   title: "Blog",
   description:
-    "Read Resseaux Tech insights on GeM procurement, IT infrastructure, networking, power backup, security, and deployment planning for organisations.",
+    "Buying guides for networking, security, servers, storage, HCI, UPS, batteries and GeM IT requirements. Contact us to discuss product supply and implementation.",
   path: "/blog",
 });
 
@@ -22,7 +22,7 @@ export default function BlogPage() {
     <>
       <PageBanner
         pageName="Blog"
-        pageTitle="Insights, Procurement & Infrastructure Knowledge"
+        pageTitle="IT Products, Procurement & Deployment Guides"
       />
 
       <section className="py-20 lg:py-28">
@@ -78,10 +78,7 @@ export default function BlogPage() {
                     About Resseaux Tech
                   </h5>
                   <p className="text-sm leading-7 text-slate-600">
-                    Resseaux Tech shares practical insights on enterprise IT
-                    infrastructure, GeM procurement, networking, security, power
-                    backup, and implementation planning for organisations,
-                    projects, and deployment-led requirements.
+                    We work with networking, security, servers, storage, cloud, virtualization, UPS and battery requirements. Read about the products and services we handle, then send us your BOQ or project scope for a quote.
                   </p>
                 </div>
 
@@ -131,17 +128,16 @@ export default function BlogPage() {
 
                 <div>
                   <h5 className="mb-5 text-lg font-semibold text-slate-900">
-                    Need Assistance?
+                    Need a quote or implementation support?
                   </h5>
                   <p className="mb-5 text-sm leading-7 text-slate-600">
-                    Need help with procurement planning, infrastructure
-                    deployment or solution consultation for your organisation?
+                    Send us your BOQ, preferred OEM or product details, delivery location and timeline. We can review supply and implementation requirements.
                   </p>
                   <Link
                     href="/contact"
                     className="inline-flex items-center gap-2 text-sm font-medium text-slate-900 transition hover:text-emerald-700"
                   >
-                    <span>Contact Resseaux Tech</span>
+                    <span>Request a Quote</span>
                     <span aria-hidden="true">→</span>
                   </Link>
                 </div>
@@ -153,7 +149,7 @@ export default function BlogPage() {
       <RelatedFaqs
         items={pageFaqs.blog}
         title="About our infrastructure insights"
-        description="How to use these articles when researching procurement and technical requirements."
+        description="Buyer-focused articles about IT products, procurement and the services we provide."
       />
     </>
   );
