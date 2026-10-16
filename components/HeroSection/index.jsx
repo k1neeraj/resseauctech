@@ -11,16 +11,16 @@ const slides = [
   {
     id: 1,
     image: "/img/homebanner/banner.png",
-    subtitle: "Enterprise IT Infrastructure & Procurement",
-    title: "Infrastructure planning, procurement and deployment support.",
-    text: "Resseaux Tech helps organizations source, plan and implement networking, compute, power backup and security solutions.",
+    subtitle: "IT Infrastructure Products & Services",
+    title: "Source the right IT equipment. Get support with deployment.",
+    text: "We work with networking, security, servers, storage, cloud, virtualization, UPS and batteries—from product requirements to implementation support.",
   },
   {
     id: 2,
     image: "/img/homebanner/banner2.png",
-    subtitle: "Project-Led Infrastructure Support",
-    title: "Built for enterprises, institutions and critical environments.",
-    text: "We support deployment-focused infrastructure requirements with practical planning and procurement alignment.",
+    subtitle: "Government, Institutional & Enterprise Projects",
+    title: "Need IT products supplied or installed?",
+    text: "Send us your BOQ, technical specification or project scope. We will review the requirement and discuss supply or implementation options.",
   },
 ];
 
