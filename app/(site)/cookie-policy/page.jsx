@@ -41,6 +41,9 @@ export const metadata = {
   title: "Cookie Policy | Resseaux Tech",
   description:
     "Read the Cookie Policy of Resseaux Tech to understand how cookies, embedded services and related technologies may be used on this website.",
+  alternates: {
+    canonical: "/cookie-policy",
+  },
 };
 
 export default function CookiePolicyPage() {
