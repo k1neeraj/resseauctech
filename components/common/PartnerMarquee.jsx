@@ -70,7 +70,7 @@
 //         </div>
 
 //         <h2 className="mt-3 text-3xl font-semibold tracking-tight text-[#111827] md:text-4xl">
-//           Partner ecosystem that powers reliable delivery
+//           Technology partners across IT infrastructure and power backup
 //         </h2>
 
 //         <p className="mt-4 text-base leading-8 text-[#111827]/68">
@@ -155,9 +155,7 @@ export default function PartnerMarquee() {
         </h2>
 
         <p className="mt-4 text-base leading-8 text-[#111827]/68">
-          From power backup and data centre systems to enterprise compute,
-          networking and infrastructure software, our ecosystem supports
-          resilient and dependable deployments.
+          Our listed partners cover networking, enterprise computing, storage, UPS systems, batteries and data-centre infrastructure.
         </p>
       </div>
 
