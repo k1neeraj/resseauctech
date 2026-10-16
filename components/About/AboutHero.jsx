@@ -1,7 +1,7 @@
 const stats = [
   { value: "PAN India", label: "Execution presence" },
   { value: "2009", label: "Company incorporation" },
-  { value: "Enterprise + Public Sector", label: "Primary delivery focus" },
+  { value: "Enterprise & Public Sector", label: "Main customer sectors" },
 ];
 
 export default function AboutHero() {
@@ -15,7 +15,7 @@ export default function AboutHero() {
           </span>
 
           <h1 className="mt-6 max-w-4xl text-4xl font-semibold leading-tight text-white md:text-6xl">
-            Infrastructure execution built for institutions, enterprises and mission-critical environments.
+            IT infrastructure products and implementation for organisations across India.
           </h1>
 
           <p className="mt-6 max-w-3xl text-base leading-8 text-slate-300 md:text-lg">
