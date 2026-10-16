@@ -151,7 +151,7 @@ export default function PartnerMarquee() {
         </div>
 
         <h2 className="mt-3 text-3xl font-semibold tracking-tight text-[#111827] md:text-4xl">
-          Partner ecosystem that powers reliable delivery
+          Technology partners across IT infrastructure and power backup
         </h2>
 
         <p className="mt-4 text-base leading-8 text-[#111827]/68">
