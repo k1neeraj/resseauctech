@@ -7,8 +7,6 @@ export default function RelatedFaqs({
   title = "Frequently Asked Questions",
   description = "Helpful answers about this page and the next steps.",
 }) {
-  const [openIndex, setOpenIndex] = useState(items.length ? 0 : -1);
-
   if (!items.length) return null;
 
   return (
