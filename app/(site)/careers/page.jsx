@@ -1,5 +1,7 @@
 import PageBanner from "@/components/common/PageBanner";
 import Link from "next/link";
+import RelatedFaqs from "@/components/RelatedFaqs";
+import { pageFaqs } from "@/components/faq/pageFaqs";
 
 export const metadata = {
   title: "Careers",
@@ -246,6 +248,11 @@ Regards,`);
           </aside>
         </div>
       </section>
+      <RelatedFaqs
+        items={pageFaqs.careers}
+        title="Careers FAQs"
+        description="Application details and what to do if you do not see a matching opening."
+      />
     </>
   );
 }
