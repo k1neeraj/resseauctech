@@ -67,7 +67,7 @@
 //           Trusted institutions
 //         </div>
 //         <h2 className="mt-3 text-3xl font-semibold tracking-tight text-[#111827] md:text-4xl">
-//           Institutions we are proud to support
+//           Organisations we work with
 //         </h2>
 //         <p className="mt-4 text-base leading-8 text-[#111827]/68">
 //           A selection of public-sector, research, defence and enterprise institutions
@@ -148,7 +148,7 @@
 //         </div>
 
 //         <h2 className="mt-3 text-3xl font-semibold tracking-tight text-[#111827] md:text-4xl">
-//           Institutions we are proud to support
+//           Organisations we work with
 //         </h2>
 
 //         <p className="mt-4 text-base leading-8 text-[#111827]/68">
