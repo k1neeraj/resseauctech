@@ -352,7 +352,7 @@ Use this if you specifically want to verify https://www.resseauxtech.com or cann
 
 1. In Search Console, add a URL-prefix property: https://www.resseauxtech.com/
 2. Select the HTML tag verification method.
-3. Copy only the value from the tag's content attribute—not the whole <meta> tag. Example format: google-site-verification=token is not required in the variable; use the exact token value Google shows for content.
+3. Copy only the value from the tag's content attribute—not the whole tag. For example, if Google shows <meta name="google-site-verification" content="ABC123" />, set GOOGLE_SITE_VERIFICATION to ABC123.
 4. Set GOOGLE_SITE_VERIFICATION to that token in the hosting environment settings.
 5. Rebuild/redeploy the website if required so Next.js outputs the verification tag in the page head.
 6. Open the live homepage, inspect the page source and confirm a google-site-verification meta tag is present. Then return to Search Console and click Verify.
