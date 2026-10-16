@@ -33,9 +33,7 @@ export async function generateMetadata({ params }) {
       description: service.description,
       images: [
         {
-          url: "/img/logo/logo.png",
-          width: 1200,
-          height: 630,
+          url: "/img/homebanner/banner.png",
           alt: "Resseaux Tech - IT Infrastructure Solutions",
         },
       ],
@@ -44,7 +42,7 @@ export async function generateMetadata({ params }) {
       card: "summary_large_image",
       title: `${service.title} | Resseaux Tech`,
       description: service.description,
-      images: ["/img/logo/logo.png"],
+      images: ["/img/homebanner/banner.png"],
     },
   };
 }
