@@ -1,191 +1,186 @@
 export const pageFaqs = {
   home: [
     {
-      question: "What IT infrastructure services does Resseaux Tech cover?",
+      question: "What IT services do you provide?",
       answer:
-        "The listed service areas include network and infrastructure, security, cloud, virtualization, storage and HCI, power backup, and implementation support. The right scope depends on the organisation's requirement.",
+        "We work across networking, IT security, cloud, servers, storage, virtualization, HCI and power backup. Tell us what you need and we can discuss the right scope.",
     },
     {
-      question: "Can Resseaux Tech support work beyond product supply?",
+      question: "Can you help with installation as well as supply?",
       answer:
-        "Depending on the agreed scope and applicable tender requirements, support can include requirement planning, deployment coordination, implementation assistance, and continuity-focused support.",
+        "Yes. Depending on the requirement, a project can include planning, installation, configuration and implementation support.",
     },
     {
-      question: "What should we prepare before discussing a requirement?",
+      question: "What details should I share for a quotation?",
       answer:
-        "Useful starting information includes the scope of work, technical specifications or BOQ/RFQ, site locations, quantities, timelines, and any delivery or implementation constraints.",
-    },
-    {
-      question: "Why are detailed government project case studies not always shown publicly?",
-      answer:
-        "Government and institutional engagements may carry confidentiality obligations or NDA restrictions. Project-specific details should only be published when disclosure is permitted and authorised.",
+        "A short description of the requirement, location, quantities, technical specifications and expected timeline is a good starting point.",
     },
   ],
   about: [
     {
-      question: "What does Resseaux Tech specialise in?",
+      question: "What does Resseaux Tech do?",
       answer:
-        "Resseaux Tech focuses on IT infrastructure and system-integration requirements, including networking, security, cloud, server and storage environments, power backup, and implementation support.",
+        "Resseaux Tech provides IT infrastructure and system integration services, including networking, security, cloud, servers, storage, power backup and implementation support.",
     },
     {
-      question: "Does Resseaux Tech work with government and institutional requirements?",
+      question: "Do you work with government and institutional requirements?",
       answer:
-        "The business positions its services for government, institutional, and enterprise requirements. Each opportunity is assessed against its actual scope, eligibility conditions, and delivery expectations.",
+        "We consider government, institutional and enterprise requirements based on the tender conditions, technical scope and delivery expectations.",
     },
     {
-      question: "Why may public project information be limited?",
+      question: "Can you work with an existing IT setup?",
       answer:
-        "Some engagements are subject to NDAs or other confidentiality obligations. Resseaux Tech should only share project references and details that it is authorised to disclose.",
+        "Yes. Share details of your current setup and what needs to change, and the team can discuss the requirement with you.",
     },
   ],
   services: [
     {
-      question: "Which service areas can be discussed with your team?",
+      question: "Which IT infrastructure services can I enquire about?",
       answer:
-        "You can enquire about network infrastructure, security, cloud, virtualization, storage and HCI, UPS and power backup, batteries, and implementation support. Share the requirement so the appropriate service area can be identified.",
+        "You can contact us about networking, security, cloud, virtualization, servers, storage, HCI, UPS, batteries and implementation support.",
     },
     {
-      question: "Can a requirement include planning and implementation support?",
+      question: "Can you help plan and implement a project?",
       answer:
-        "Yes, the service scope may include planning, deployment coordination, implementation assistance, and support continuity, depending on the project and its contractual or tender requirements.",
+        "Project support can include requirement planning, deployment, configuration and integration, depending on the agreed scope.",
     },
     {
-      question: "What information helps you understand a project faster?",
+      question: "What do you need to understand my requirement?",
       answer:
-        "Share the scope, BOQ/RFQ or technical specification, quantities, site locations, expected timelines, and relevant constraints. For a live tender, the published tender documents remain the controlling requirements.",
+        "Share the technical specification or BOQ if available, site location, quantities and expected timeline. For a tender, the published bid documents set the requirements.",
     },
   ],
   blog: [
     {
-      question: "What topics are covered in the Resseaux Tech insights?",
+      question: "What will I find on the Resseaux Tech blog?",
       answer:
-        "Articles cover IT infrastructure planning, GeM and institutional procurement, networking and security, server and storage, UPS and batteries, virtualization, and maintenance support.",
+        "The blog covers IT infrastructure, GeM procurement, networking, security, servers, storage, UPS, batteries and project planning.",
     },
     {
-      question: "Can an article replace the requirements in an active tender?",
+      question: "Can I use a blog article to prepare for a tender?",
       answer:
-        "No. Articles provide general guidance. Always check the latest tender notice, amendments, eligibility conditions, specifications, and submission instructions for the opportunity you are pursuing.",
+        "Articles can help with general preparation, but always follow the latest tender document, amendments and official clarifications for a live bid.",
     },
     {
-      question: "Can we discuss how an insight applies to our requirement?",
+      question: "Can I ask about a topic covered in an article?",
       answer:
-        "Yes. Share the non-confidential scope and technical context through the contact page so the enquiry can be routed for discussion.",
+        "Of course. Send your question through the contact page and include any relevant technical details.",
     },
   ],
   careers: [
     {
-      question: "Which role is currently listed on the careers page?",
+      question: "Which position is listed on the careers page?",
       answer:
-        "The page currently lists Sales Manager – Government / Institutional Business, with 4–5 years of relevant experience and New Delhi / Bengaluru as locations. Check the live careers page before applying in case the opening has changed.",
+        "The current listing is Sales Manager – Government / Institutional Business. Please check the careers page for the latest experience requirements and locations.",
     },
     {
-      question: "How should I apply?",
+      question: "How do I apply?",
       answer:
-        "Use the Apply via Email link on the careers page. It opens an email template; attach your resume and complete the requested details before sending it to the listed recruitment contact.",
+        "Use the Apply via Email link on the careers page, attach your resume and include your contact details.",
     },
     {
-      question: "Can I share my profile if no listed role matches?",
+      question: "Can I get in touch about future openings?",
       answer:
-        "The careers page invites people interested in future sales, business development, or infrastructure-related opportunities to contact the team.",
+        "Yes. If you are interested in sales, business development or IT infrastructure roles, you can contact the team about future opportunities.",
     },
   ],
   clients: [
     {
-      question: "Why are detailed client project case studies not displayed?",
+      question: "Which sectors does Resseaux Tech work with?",
       answer:
-        "Some government and institutional work can be subject to confidentiality clauses or NDAs. Project descriptions, documents, outcomes, and client references should only be disclosed with appropriate authorisation.",
+        "The website highlights organisations across government, defence, research, healthcare, education, energy and enterprise sectors.",
     },
     {
-      question: "Can Resseaux Tech discuss a requirement similar to our environment?",
+      question: "Can you discuss a requirement for our organisation?",
       answer:
-        "You can share a high-level, non-confidential description of your environment and requirement. Any project-specific discussion remains subject to the relevant permissions and commercial process.",
+        "Yes. Tell us about your organisation, current setup and what you need help with, and we can discuss the requirement.",
     },
     {
-      question: "Should a public client listing be treated as proof of a specific engagement?",
+      question: "How do I enquire about a similar IT solution?",
       answer:
-        "For formal evaluation, rely on the documentation and references authorised for the particular opportunity. Confirm any project-specific credentials directly through the appropriate business process.",
+        "Use the contact page and share the main requirements, location and expected timeline. Technical specifications or a BOQ are helpful if you have them.",
     },
   ],
   partners: [
     {
-      question: "Which technology areas are represented on the partners page?",
+      question: "What technology areas do your partners cover?",
       answer:
-        "The page highlights an ecosystem spanning enterprise computing, networking, critical power and UPS, batteries, and related infrastructure technologies.",
+        "The partners page features technology across enterprise computing, networking, UPS and critical power, batteries and related infrastructure.",
     },
     {
-      question: "Can a project be aligned with an organisation's specified OEM?",
+      question: "Can you work with a specified OEM or product?",
       answer:
-        "Requirements can be reviewed against the specified technology stack where permitted. Active tender conditions, OEM requirements, and product compatibility should always guide the final solution.",
+        "Share the required OEM, model or technical specification. The proposed solution will depend on compatibility and the applicable project or tender requirements.",
     },
     {
-      question: "Are OEM authorisations needed for every tender?",
+      question: "Do some tenders require OEM authorisation?",
       answer:
-        "That depends on the tender's eligibility criteria and documentation requirements. Check the current bid documents and obtain any required authorisation from the relevant OEM before submission.",
+        "Yes, some bids ask for OEM authorisation or specific supporting documents. Check the individual tender conditions before submitting a bid.",
     },
   ],
   contact: [
     {
-      question: "What should I include in an enquiry?",
+      question: "What should I include in my enquiry?",
       answer:
-        "Include the requirement summary, site location, technical specification or BOQ/RFQ if relevant, quantities, timeline, and the best way to contact you. This helps the team understand the request.",
+        "Tell us what you need, where the work is required and your expected timeline. Add specifications, quantities or a BOQ if available.",
     },
     {
-      question: "Can I send tender or project documents through the website form?",
+      question: "Can I request a quotation through the contact form?",
       answer:
-        "Share only information you are authorised to disclose through the chosen channel. Do not submit classified, restricted, or NDA-protected documents through a general enquiry form; confirm an approved channel for sensitive material.",
+        "Yes. Describe the requirement and leave your contact details so the team can follow up.",
     },
     {
       question: "Where is Resseaux Tech based?",
       answer:
-        "The contact page lists New Delhi office details. For current phone numbers, email addresses, and map information, refer to the details displayed on that page.",
+        "Resseaux Tech lists its office in New Delhi. Current contact details are available on the Contact page.",
     },
   ],
   cookiePolicy: [
     {
-      question: "What are website cookies?",
+      question: "What are cookies?",
       answer:
-        "Cookies are small pieces of data that a website or an embedded service may store in a browser to support functionality or remember certain preferences. The policy page describes the site's stated approach.",
+        "Cookies are small files that websites can store in your browser to remember settings or support certain features.",
     },
     {
-      question: "How can I control cookies?",
+      question: "Can I manage cookies in my browser?",
       answer:
-        "You can review and manage cookie settings through your browser. Blocking some cookies may affect features that rely on them.",
+        "Yes. You can review or block cookies in your browser settings. Some website features may not work as expected if certain cookies are blocked.",
     },
   ],
   privacyPolicy: [
     {
-      question: "What information might be collected when I contact Resseaux Tech?",
+      question: "What details are collected when I send an enquiry?",
       answer:
-        "Information submitted through an enquiry form or shared through email may include contact details, organisation information, and the content of your request. Refer to the privacy policy for the site's stated handling practices.",
+        "The contact form may collect the details you provide, such as your name, contact information, organisation and enquiry message. See the Privacy Policy for more information.",
     },
     {
-      question: "How should I send sensitive business information?",
+      question: "How can I ask about the use of my information?",
       answer:
-        "Only share information you are authorised to disclose, and avoid putting restricted or NDA-protected material into a general enquiry. Confirm an approved channel before sending sensitive documents.",
+        "Use the contact details on the website to send your question about how information submitted through the site is handled.",
     },
   ],
   terms: [
     {
-      question: "Do website descriptions replace tender or contract documents?",
+      question: "Do website descriptions replace tender documents?",
       answer:
-        "No. Website content is general information and does not replace the conditions, specifications, clarifications, or contractual documents governing a specific procurement or engagement.",
+        "No. For a specific bid or project, follow the applicable tender, quotation and contract documents.",
     },
     {
-      question: "What should I do if a requirement needs a formal quotation?",
+      question: "How can I request a formal quotation?",
       answer:
-        "Contact the team with the relevant scope and technical details. Any formal quotation or proposal should be reviewed against the agreed scope and applicable procurement conditions.",
+        "Contact the team with your requirements, specifications and timeline so the scope can be reviewed.",
     },
   ],
   serviceDefault: [
     {
-      question: "What information is useful for a service enquiry?",
+      question: "What information should I share about a service requirement?",
       answer:
-        "Share the technical scope, site locations, quantities, existing environment, desired timeline, and any applicable BOQ/RFQ or tender requirements. Avoid including restricted documents in a general enquiry.",
+        "Let us know what you need, the site location, quantities, current setup and expected timeline. A BOQ or technical specification is useful if available.",
     },
     {
-      question: "Will the final service scope depend on the project?",
+      question: "Can the scope be adjusted to the project?",
       answer:
-        "Yes. The precise scope, deliverables, and implementation approach depend on the environment, agreed requirements, and applicable tender or contract conditions.",
+        "Yes. The final scope depends on the requirement, site conditions and applicable tender or contract terms.",
     },
   ],
 };
@@ -193,122 +188,122 @@ export const pageFaqs = {
 const blogFaqs = {
   "gem-it-infrastructure-procurement-guide": [
     {
-      question: "What should an institution check before a GeM IT procurement?",
+      question: "What should I check before bidding on a GeM IT requirement?",
       answer:
-        "Review the active bid or buying terms, technical specifications, eligibility and documentation requirements, delivery terms, installation scope, warranty, and support obligations. The live procurement documents take precedence over general guidance.",
+        "Review the bid conditions, technical specifications, eligibility criteria, required documents, delivery terms, warranty and support requirements.",
     },
     {
-      question: "Can a general procurement guide confirm eligibility for a specific bid?",
+      question: "Where can I confirm the requirements for a particular bid?",
       answer:
-        "No. Eligibility is bid-specific. Check the latest tender conditions and amendments and verify that all required documents are available before submitting a response.",
+        "Use the latest bid document, amendments and official clarifications on GeM. A general guide cannot confirm eligibility for a specific tender.",
     },
   ],
   "server-storage-planning-for-government-projects": [
     {
-      question: "What should be assessed before specifying servers and storage?",
+      question: "What should I consider when planning servers and storage?",
       answer:
-        "Consider workload and capacity needs, performance, growth, backup and recovery, availability, security, compatibility, power and cooling, and ongoing support requirements.",
+        "Start with workload, capacity, performance, future growth, backup, recovery, availability, security, power and cooling requirements.",
     },
     {
-      question: "Should the specification be written around a single product?",
+      question: "How much server or storage capacity do I need?",
       answer:
-        "The specification should follow the organisation's documented needs and the applicable procurement rules. Confirm any brand, compatibility, or eligibility constraints in the actual tender documents.",
+        "That depends on the applications, current usage, expected growth and availability requirements. Assessing those details helps avoid over- or under-sizing.",
     },
   ],
   "network-security-basics-for-enterprise-offices": [
     {
-      question: "What should an organisation review when planning network security?",
+      question: "What should an office network security review include?",
       answer:
-        "Review network boundaries, access controls, firewall requirements, endpoint protection, segmentation, monitoring, and the operational process for updates and incident handling.",
+        "It may include access controls, firewalls, network segmentation, endpoint protection, monitoring and a plan for updates and incident response.",
     },
     {
-      question: "Is one security setup suitable for every office?",
+      question: "Does every office need the same network security setup?",
       answer:
-        "No. The design should reflect the organisation's users, sites, workloads, risk profile, existing systems, and applicable security requirements.",
+        "No. The setup should fit the number of users and sites, the systems in use and the organisation's security requirements.",
     },
   ],
   "ups-battery-sizing-for-server-rooms": [
     {
-      question: "What information is needed to size a UPS for a server room?",
+      question: "What details are needed to size a UPS?",
       answer:
-        "Start with the measured or specified load, required backup duration, critical versus non-critical equipment, expected growth, redundancy needs, site conditions, and battery maintenance requirements.",
+        "The connected load, required backup time, critical equipment, expected expansion, redundancy and battery requirements all matter.",
     },
     {
-      question: "Can runtime be estimated from UPS capacity alone?",
+      question: "Does a higher-capacity UPS always provide more backup time?",
       answer:
-        "Not reliably. Actual runtime depends on the connected load, battery configuration and condition, operating conditions, and the selected UPS system's specifications.",
+        "Not by itself. Backup time also depends on the connected load, battery configuration and battery condition.",
     },
   ],
   "campus-network-rollout-checklist": [
     {
       question: "What should be ready before a campus network rollout?",
       answer:
-        "Confirm building and floor plans, user and device counts, cable pathways, rack and power readiness, network zones, uplinks, access requirements, rollout sequence, and acceptance checks.",
+        "Check floor plans, user and device counts, cabling routes, racks, power, uplinks, Wi-Fi coverage and the rollout schedule.",
     },
     {
-      question: "Why plan a rollout in phases?",
+      question: "Why is site readiness important?",
       answer:
-        "A planned sequence helps coordinate site readiness, testing, dependencies, and handover. The right phases depend on the number of locations and the operational constraints.",
+        "Missing cabling, power or rack preparation can delay installation and create rework. Check these items before deployment begins.",
     },
   ],
   "how-to-evaluate-it-vendors-for-tenders": [
     {
-      question: "Which documents should be checked when evaluating an IT tender response?",
+      question: "What should I check in an IT tender response?",
       answer:
-        "Use the active tender checklist to verify eligibility, technical compliance, required declarations, OEM authorisations where applicable, commercial submissions, delivery commitments, and support obligations.",
+        "Check eligibility, technical compliance, declarations, OEM documents where required, commercial submissions, delivery and support commitments.",
     },
     {
-      question: "Can a vendor evaluation checklist replace the tender conditions?",
+      question: "Can I use one checklist for every tender?",
       answer:
-        "No. It is a preparation aid only. The bid document, amendments, and official clarifications govern the actual submission.",
+        "A general checklist can help, but each bid has its own conditions. Always use the current tender documents for the final review.",
     },
   ],
   "common-mistakes-in-it-infra-procurement": [
     {
-      question: "What are common gaps in IT infrastructure procurement planning?",
+      question: "What are common mistakes in IT infrastructure procurement?",
       answer:
-        "Frequent planning gaps include unclear requirements, incomplete site readiness, overlooking integration and licensing dependencies, and not defining installation, warranty, support, or acceptance criteria.",
+        "Common issues include unclear specifications, overlooked site requirements, missing integration details and unclear warranty or support terms.",
     },
     {
-      question: "How can procurement reduce deployment-stage surprises?",
+      question: "How can I avoid delays during installation?",
       answer:
-        "Clarify scope, site constraints, responsibilities, dependencies, documentation, and acceptance criteria before the bid or project moves into execution.",
+        "Confirm the scope, site readiness, dependencies, delivery schedule and acceptance criteria before work begins.",
     },
   ],
   "virtualization-readiness-checklist": [
     {
-      question: "What should be reviewed before virtualising workloads?",
+      question: "What should I check before virtualising workloads?",
       answer:
-        "Review application compatibility, resource utilisation, capacity headroom, storage and network needs, backup and recovery, licensing, availability requirements, and operational skills.",
+        "Review application compatibility, resource usage, capacity, storage, networking, backup, recovery, licensing and availability needs.",
     },
     {
-      question: "Does virtualization automatically reduce costs?",
+      question: "Will virtualization always reduce costs?",
       answer:
-        "Not in every environment. Outcomes depend on workload patterns, licensing, hardware, implementation effort, support needs, and the design chosen for the environment.",
+        "Not always. Savings depend on existing hardware, workloads, licensing, implementation effort and ongoing support costs.",
     },
   ],
   "annual-maintenance-support-for-critical-it-systems": [
     {
-      question: "What should an AMC scope define?",
+      question: "What should an annual maintenance contract cover?",
       answer:
-        "Define covered equipment and sites, service hours, response and resolution expectations, preventive maintenance, parts coverage, exclusions, reporting, escalation, and renewal terms.",
+        "Define the equipment and sites covered, service hours, response times, preventive visits, parts coverage, exclusions and escalation process.",
     },
     {
-      question: "Is an AMC the same as a warranty?",
+      question: "Is an AMC the same as a product warranty?",
       answer:
-        "Not necessarily. Warranty coverage and AMC obligations can differ. Review the actual vendor warranty terms and the proposed maintenance agreement before deciding what is covered.",
+        "No. Warranty and AMC coverage can differ, so review both sets of terms before deciding what is included.",
     },
   ],
   "case-study-thinking-before-large-infra-rollouts": [
     {
-      question: "Can infrastructure lessons be shared without disclosing a client project?",
+      question: "What should a team review after a large infrastructure rollout?",
       answer:
-        "General process lessons may be shared when they do not reveal protected information and disclosure is permitted. Names, configurations, documents, outcomes, or other identifying details should not be published without authorisation.",
+        "Review the original requirements, decisions, site readiness, testing, handover and any issues that could be handled better next time.",
     },
     {
-      question: "What should be captured in an internal project review?",
+      question: "Why is project documentation useful?",
       answer:
-        "Record the initial requirement, constraints, planning decisions, dependencies, testing, handover, lessons learned, and follow-up actions in line with the project's documentation and confidentiality rules.",
+        "Good documentation helps teams understand the setup, support the systems and plan future changes more easily.",
     },
   ],
 };
