@@ -412,3 +412,4 @@ Before announcing a release:
 - app/robots.js — robots.txt generator
 - app/sitemap.js — sitemap route generator
 - .github/workflows/next-build.yml — build check on main updates
+- .github/workflows/refresh-dependencies.yml — on-demand dependency update, audit and build; see [Dependency Maintenance](DEPENDENCY-MAINTENANCE.md)
