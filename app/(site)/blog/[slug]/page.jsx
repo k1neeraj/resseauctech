@@ -154,18 +154,16 @@ export default async function BlogDetailPage({ params }) {
 
             <div className="mt-[50px] rounded-[24px] border border-[var(--color-border-soft)] bg-[var(--color-surface-soft)] p-[32px] max-[768px]:p-[24px]">
               <h3 className="mb-[12px] text-[28px] leading-[1.3] text-[var(--color-text)] max-[768px]:text-[22px]">
-                Need help with a similar requirement?
+                Need a quote for this requirement?
               </h3>
               <p className="mb-[18px] text-[16px] leading-[1.8] text-[var(--color-text-soft)]">
-                Connect with Resseaux Tech for enterprise infrastructure
-                planning, procurement support, implementation and project
-                consultation.
+                Send us your BOQ or specification, preferred OEM or model, quantities, delivery location and timeline. We can review the product supply and implementation scope you need.
               </p>
               <Link
                 href="/contact"
                 className="inline-flex items-center text-[15px] font-semibold text-[var(--color-text)] transition-colors duration-200 hover:text-[var(--color-primary)]"
               >
-                Talk to our team →
+                Request a Quote →
               </Link>
             </div>
           </div>
@@ -174,12 +172,10 @@ export default async function BlogDetailPage({ params }) {
             <div className="sticky top-[120px] space-y-[30px]">
               <div className="rounded-[24px] border border-[var(--color-border-soft)] bg-[var(--color-surface)] p-[28px]">
                 <h3 className="mb-[14px] text-[22px] text-[var(--color-text)]">
-                  About this section
+                  Working on a purchase?
                 </h3>
                 <p className="text-[15px] leading-[1.9] text-[var(--color-text-soft)]">
-                  These articles are designed to help organisations, enterprises
-                  and project teams make more informed decisions around
-                  procurement, infrastructure and implementation planning.
+                  We handle enquiries for networking, security, servers, storage, cloud, virtualization, UPS, batteries and related implementation support. Send us your project scope for a quote.
                 </p>
               </div>
 
@@ -235,7 +231,7 @@ export default async function BlogDetailPage({ params }) {
       <RelatedFaqs
         items={getBlogFaqs(post.slug)}
         title="Questions related to this article"
-        description="Practical notes to help interpret the topic against your own requirements and applicable tender documents."
+        description="Questions about the products, services and project requirements covered in this article."
       />
     </>
   );
