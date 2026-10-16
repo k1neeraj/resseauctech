@@ -6,7 +6,7 @@ import CtaBand from "@/components/sections/CtaBand";
 import React from "react";
 
 export const metadata = {
-  title: "About Resseaux Tech | IT Infrastructure Organisation in India",
+  title: "IT Infrastructure Company in India",
   description:
     "Learn about Resseaux Tech, a director-led IT infrastructure organisation delivering networking, server, storage, cloud, and security solutions for organisations across India.",
   alternates: {
