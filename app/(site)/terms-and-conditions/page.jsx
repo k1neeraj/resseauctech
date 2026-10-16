@@ -1,15 +1,14 @@
+import { createPageMetadata } from "@/lib/seo";
 import PageBanner from "@/components/common/PageBanner";
 import RelatedFaqs from "@/components/RelatedFaqs";
 import { pageFaqs } from "@/components/faq/pageFaqs";
 
-export const metadata = {
+export const metadata = createPageMetadata({
   title: "Terms & Conditions",
   description:
     "Read the Terms & Conditions governing your use of the Resseaux Tech website and related services.",
-  alternates: {
-    canonical: "/terms-and-conditions",
-  },
-};
+  path: "/terms-and-conditions",
+});
 
 export default function TermsAndConditionsPage() {
   return (
