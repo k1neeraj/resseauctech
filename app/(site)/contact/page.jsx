@@ -1,4 +1,6 @@
 import ContactPageClient from "@/components/ContactPageClient";
+import RelatedFaqs from "@/components/RelatedFaqs";
+import { pageFaqs } from "@/components/faq/pageFaqs";
 
 export const metadata = {
   title: "Contact",
@@ -33,5 +35,14 @@ export const metadata = {
 };
 
 export default function ContactPage() {
-  return <ContactPageClient />;
+  return (
+    <>
+      <ContactPageClient />
+      <RelatedFaqs
+        items={pageFaqs.contact}
+        title="Before you contact us"
+        description="Information that helps route an enquiry and guidance on handling sensitive project material."
+      />
+    </>
+  );
 }
