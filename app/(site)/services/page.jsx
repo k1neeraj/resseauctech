@@ -30,15 +30,11 @@ export default function ServicesPage() {
             </span>
 
             <h2 className="mt-4 text-3xl font-semibold leading-tight text-slate-900 md:text-5xl">
-              Structured infrastructure and technology services aligned with real
-              deployment needs.
+              IT products and implementation services for your next project.
             </h2>
 
             <p className="mt-6 text-base leading-8 text-slate-600 md:text-lg">
-              Resseaux Tech supports organizations with practical service coverage
-              across networking, security, cloud, virtualization, storage and
-              deployment execution. The focus is not only on product supply, but
-              on planning, implementation and long-term support continuity.
+              We handle requirements across networking, security, cloud, virtualization, storage, UPS and implementation support. Browse the service areas below, then contact us with your BOQ, specifications or deployment needs.
             </p>
           </div>
 
