@@ -1,5 +1,3 @@
-"use client";
-
 export default function RelatedFaqs({
   items = [],
   title = "Frequently Asked Questions",
