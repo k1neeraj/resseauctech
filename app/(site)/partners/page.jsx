@@ -1,15 +1,14 @@
+import { createPageMetadata } from "@/lib/seo";
 import Image from "next/image";
 import RelatedFaqs from "@/components/RelatedFaqs";
 import { pageFaqs } from "@/components/faq/pageFaqs";
 
-export const metadata = {
+export const metadata = createPageMetadata({
   title: "Partners",
   description:
     "Explore Resseaux Tech technology partners across enterprise infrastructure, networking, critical power, backup systems, devices and modern IT platforms.",
-  alternates: {
-    canonical: "/partners",
-  },
-};
+  path: "/partners",
+});
 
 const partners = [
   {
