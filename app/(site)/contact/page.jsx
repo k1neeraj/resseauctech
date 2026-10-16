@@ -1,7 +1,5 @@
 import { createPageMetadata } from "@/lib/seo";
 import ContactPageClient from "@/components/ContactPageClient";
-import RelatedFaqs from "@/components/RelatedFaqs";
-import { pageFaqs } from "@/components/faq/pageFaqs";
 
 export const metadata = createPageMetadata({
   title: "Contact",
@@ -11,14 +9,5 @@ export const metadata = createPageMetadata({
 });
 
 export default function ContactPage() {
-  return (
-    <>
-      <ContactPageClient />
-      <RelatedFaqs
-        items={pageFaqs.contact}
-        title="Before you contact us"
-        description="Information that helps route an enquiry and guidance on handling sensitive project material."
-      />
-    </>
-  );
+  return <ContactPageClient />;
 }
