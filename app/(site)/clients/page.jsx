@@ -1,6 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import PageBanner from "@/components/common/PageBanner";
+import RelatedFaqs from "@/components/RelatedFaqs";
+import { pageFaqs } from "@/components/faq/pageFaqs";
 import {
   ArrowRight,
   ShieldCheck,
@@ -440,6 +442,11 @@ export default function ClientsPage() {
           </div>
         </div>
       </section>
+      <RelatedFaqs
+        items={pageFaqs.clients}
+        title="Client references and confidentiality"
+        description="How to discuss relevant experience while respecting tender conditions, authorisation and confidentiality obligations."
+      />
     </main>
   );
 }
