@@ -243,7 +243,7 @@ export default function ClientsPage() {
     <main className="bg-[#f6f3ee] text-[#111827]">
       <PageBanner
         pageName="Clients"
-        eyebrow="Trusted Organisations"
+        eyebrow="Our Clients"
         pageTitle="Organisations we work with."
         description="Our client list includes organisations across government, defence, research, healthcare, education, energy, infrastructure and enterprise. Contact us about the IT products and services your organisation needs."
       />
