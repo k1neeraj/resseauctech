@@ -145,7 +145,7 @@ export default async function ServiceDetailPage({ params }) {
               </div>
             )}
 
-            {/* Typical use cases (NDA‑friendly generic) */}
+            {/* Typical use cases */}
             {useCases && useCases.length > 0 && (
               <div className="mt-10 rounded-[28px] border border-slate-200 bg-white p-6 shadow-sm md:p-8">
                 <h3 className="text-2xl font-semibold text-slate-900">
