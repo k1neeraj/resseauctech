@@ -7,6 +7,8 @@ import {
   getPostBySlug,
   getRecentPostsForSlug,
 } from "@/app/api/data";
+import RelatedFaqs from "@/components/RelatedFaqs";
+import { getBlogFaqs } from "@/components/faq/pageFaqs";
 
 export function generateStaticParams() {
   return blogPosts.map((post) => ({
@@ -230,6 +232,11 @@ export default async function BlogDetailPage({ params }) {
           </aside>
         </div>
       </section>
+      <RelatedFaqs
+        items={getBlogFaqs(post.slug)}
+        title="Questions related to this article"
+        description="Practical notes to help interpret the topic against your own requirements and applicable tender documents."
+      />
     </>
   );
 }
