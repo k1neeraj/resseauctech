@@ -1,10 +1,10 @@
 import Image from "next/image";
 
 const highlights = [
-  "Requirement-first infrastructure planning and solution mapping",
-  "Execution across security, network, cloud, data center and virtualization environments",
-  "Strong relevance for government, defence and enterprise delivery contexts",
-  "Support-led engagement with documentation, continuity and long-term reliability",
+  "Network, security and data-centre equipment for new projects and upgrades",
+  "Products and implementation support across networking, security, cloud, servers, storage and virtualization",
+  "Support for government, institutional and enterprise requirements",
+  "Installation, configuration, handover and maintenance where required by the scope",
 ];
 
 export default function AboutIntro() {
@@ -17,7 +17,7 @@ export default function AboutIntro() {
           </span>
 
           <h2 className="mt-4 text-3xl font-semibold leading-tight text-slate-900 md:text-5xl">
-            A system integration partner focused on dependable infrastructure outcomes.
+            IT infrastructure products and implementation support for organisations across India.
           </h2>
 
           <p className="mt-6 text-base leading-8 text-slate-600 md:text-lg">
