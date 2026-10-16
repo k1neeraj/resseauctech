@@ -1,7 +1,7 @@
 import PageBanner from "@/components/common/PageBanner";
 
 export const metadata = {
-  title: "Privacy Policy | Resseaux Tech",
+  title: "Privacy Policy",
   description:
     "Read the Privacy Policy of Resseaux Tech regarding data collection, usage, security, cookies, and your rights.",
   alternates: {
