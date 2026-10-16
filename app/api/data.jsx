@@ -557,35 +557,35 @@ export const servicesData = [
       "Operationally sensitive network environments",
     ],
     whyItMatters: [
-      "Helps reduce infrastructure gaps before deployment",
-      "Improves long-term manageability and continuity",
-      "Supports more stable network execution outcomes",
+      "Identifies missing network points and site work before installation.",
+      "Makes switches, cabling and network layouts easier to document and maintain.",
+      "Helps plan for network changes and future site expansion.",
     ],
     process: [
       {
         title: "Assess",
-        text: "Understand site conditions, current network readiness, operational expectations and deployment constraints.",
+        text: "Check the site layout, existing network, connection points and installation constraints.",
       },
       {
         title: "Plan",
-        text: "Map the network direction, hardware alignment, physical readiness and rollout priorities.",
+        text: "Confirm the equipment list, cabling, switching, routing and rollout sequence.",
       },
       {
         title: "Execute",
-        text: "Support coordination, implementation flow and deployment continuity for stable outcomes.",
+        text: "Coordinate the agreed installation tasks and help track the rollout through handover.",
       },
     ],
     faqs: [
       {
         question: "Can this support both new setup and upgrade requirements?",
         answer:
-          "Yes, network and infrastructure support can align with both fresh deployments and upgrade-led requirements depending on the environment.",
+          "Yes. Tell us whether this is a new setup, an expansion or a replacement.",
       },
       {
         question:
           "Is structured cabling included as part of infrastructure scope?",
         answer:
-          "Yes, physical network readiness and cabling-related planning can be addressed as part of broader infrastructure requirements.",
+          "Yes. Include cabling, network points, racks and related work in the scope if you need them.",
       },
     ],
     ctaTitle: "Need help planning network infrastructure?",
@@ -620,22 +620,22 @@ export const servicesData = [
       "Controlled infrastructure environments",
     ],
     whyItMatters: [
-      "Supports stronger control over exposed environments",
-      "Helps improve visibility and resilience in daily operations",
-      "Reduces gaps across access and endpoint-related planning",
+      "Can cover firewall, endpoint protection and access-control requirements.",
+      "Lets you specify the controls and monitoring your environment requires.",
+      "Helps bring the required security products into one project scope.",
     ],
     process: [
       {
         title: "Assess",
-        text: "Review risk-sensitive areas, access priorities, current controls and environment-specific gaps.",
+        text: "Review users, sites, current firewall and endpoint protection, and access needs.",
       },
       {
         title: "Plan",
-        text: "Define the security direction across firewall, endpoint and access-control priorities.",
+        text: "Confirm the firewall, endpoint protection, access controls and licence term required.",
       },
       {
         title: "Execute",
-        text: "Support implementation coordination and security-aligned rollout continuity.",
+        text: "Coordinate the agreed installation, configuration and testing work.",
       },
     ],
     faqs: [
@@ -643,12 +643,12 @@ export const servicesData = [
         question:
           "Can firewall and endpoint-related support be aligned together?",
         answer:
-          "Yes, security requirements can be aligned across multiple focus areas depending on environment and operational need.",
+          "Yes. We can discuss firewall and endpoint protection together if both are in scope.",
       },
       {
         question: "Is this only relevant for large enterprise setups?",
         answer:
-          "No, security-focused planning can be relevant for institutions, offices and other operational environments of different scales.",
+          "No. Tell us the number of users, sites and systems involved so we can review the requirement.",
       },
     ],
     ctaTitle: "Need a firewall or endpoint security quote?",
@@ -683,22 +683,22 @@ export const servicesData = [
       "Evolving infrastructure environments",
     ],
     whyItMatters: [
-      "Supports better workload continuity planning",
-      "Helps align existing infrastructure with future readiness",
-      "Improves planning clarity before cloud-led changes",
+      "Makes workload, backup and availability requirements part of the cloud discussion.",
+      "Helps identify what should stay on-site and what may move to cloud.",
+      "Clarifies migration dependencies before changes begin.",
     ],
     process: [
       {
         title: "Assess",
-        text: "Understand existing infrastructure, continuity expectations, backup posture and change priorities.",
+        text: "Review current workloads, hosting locations, backup needs and planned changes.",
       },
       {
         title: "Plan",
-        text: "Map hybrid direction, readiness needs and infrastructure alignment for practical cloud support.",
+        text: "Identify which workloads may move, which must stay on-site and what needs to integrate.",
       },
       {
         title: "Execute",
-        text: "Support planning-led execution and continuity thinking across implementation stages.",
+        text: "Coordinate the agreed migration or configuration tasks and confirm handover requirements.",
       },
     ],
     faqs: [
@@ -706,12 +706,12 @@ export const servicesData = [
         question:
           "Do you support hybrid cloud planning instead of cloud-only direction?",
         answer:
-          "Yes, hybrid infrastructure alignment is often relevant where organizations continue to operate across mixed environments.",
+          "Yes. We can discuss hybrid requirements where some systems stay on-site and others run in cloud.",
       },
       {
         question: "Can this help backup continuity planning as well?",
         answer:
-          "Yes, backup workflow support can be aligned within broader cloud and infrastructure continuity requirements.",
+          "Yes. Include backup and recovery requirements when requesting cloud or hybrid support.",
       },
     ],
     ctaTitle: "Planning cloud or hybrid infrastructure changes?",
@@ -750,22 +750,22 @@ export const servicesData = [
       "Operational efficiency improvement requirements",
     ],
     whyItMatters: [
-      "Helps improve utilization of existing compute resources",
-      "Supports more flexible infrastructure planning",
-      "Reduces fragmentation across workload environments",
+      "Can help consolidate suitable workloads onto fewer servers.",
+      "Makes it easier to plan capacity for new or changing workloads.",
+      "Can simplify management when workloads are grouped on an appropriate platform.",
     ],
     process: [
       {
         title: "Assess",
-        text: "Review workload patterns, infrastructure use, current inefficiencies and resource constraints.",
+        text: "Review current servers, workloads, resource usage and application requirements.",
       },
       {
         title: "Plan",
-        text: "Define the virtualization direction, workload grouping and utilization priorities.",
+        text: "Confirm which workloads can be virtualised and the compute, storage and backup capacity needed.",
       },
       {
         title: "Execute",
-        text: "Support coordination and rollout alignment for stable virtual infrastructure outcomes.",
+        text: "Coordinate the agreed deployment, configuration and testing work.",
       },
     ],
     faqs: [
@@ -773,12 +773,12 @@ export const servicesData = [
         question:
           "Is virtualization support useful for existing infrastructure as well?",
         answer:
-          "Yes, virtualization planning can support both existing environments and new deployment requirements.",
+          "Yes. Share your existing server details or the requirement for a new virtualisation platform.",
       },
       {
         question: "Can this help improve operational efficiency?",
         answer:
-          "Yes, one of the key goals is better infrastructure use, flexibility and workload handling efficiency.",
+          "It can improve resource use, but the result depends on workload needs, capacity and licensing.",
       },
     ],
     ctaTitle: "Need support for virtualization planning?",
@@ -813,22 +813,22 @@ export const servicesData = [
       "Management-simplification scenarios",
     ],
     whyItMatters: [
-      "Supports better capacity planning and scale readiness",
-      "Improves infrastructure simplicity in complex environments",
-      "Helps align performance and continuity expectations",
+      "Helps match storage capacity to current data and expected growth.",
+      "Can reduce management steps when an HCI platform fits the requirement.",
+      "Keeps performance, backup and availability requirements in the same scope.",
     ],
     process: [
       {
         title: "Assess",
-        text: "Understand current storage usage, capacity concerns, performance needs and operational expectations.",
+        text: "Review current capacity, data growth, performance targets and backup requirements.",
       },
       {
         title: "Plan",
-        text: "Map the right storage or HCI direction around scale, manageability and deployment priorities.",
+        text: "Compare the proposed storage or HCI setup with capacity, integration and support needs.",
       },
       {
         title: "Execute",
-        text: "Support implementation alignment and continuity-focused rollout planning.",
+        text: "Coordinate the agreed installation, configuration, migration and handover work.",
       },
     ],
     faqs: [
@@ -836,12 +836,12 @@ export const servicesData = [
         question:
           "Can storage and HCI support be aligned for growing environments?",
         answer:
-          "Yes, the service can support requirements where future growth and manageable infrastructure scale are important.",
+          "Yes. Share current capacity and growth estimates when asking about storage or HCI.",
       },
       {
         question: "Is capacity planning part of this scope?",
         answer:
-          "Yes, capacity alignment is one of the key focus areas within storage and HCI-related planning.",
+          "Yes. Include usable capacity, growth, performance and backup requirements in the specification.",
       },
     ],
     ctaTitle: "Need support for storage or HCI planning?",
@@ -876,34 +876,34 @@ export const servicesData = [
       "Multi-step execution scenarios",
     ],
     whyItMatters: [
-      "Helps reduce execution-stage delays and confusion",
-      "Improves coordination between planning and rollout",
-      "Supports more stable deployment outcomes",
+      "Confirms site access, equipment readiness and work responsibilities before installation.",
+      "Keeps installation tasks, dependencies and delivery dates clear.",
+      "Creates a clear path for testing and handover.",
     ],
     process: [
       {
         title: "Assess",
-        text: "Understand the implementation scope, dependencies, current readiness and execution constraints.",
+        text: "Confirm the equipment list, site access, dependencies and installation tasks.",
       },
       {
         title: "Plan",
-        text: "Map rollout flow, site-readiness needs and coordination structure before execution begins.",
+        text: "Set the rollout sequence, site schedule and responsibilities before work starts.",
       },
       {
         title: "Execute",
-        text: "Support implementation continuity, deployment coordination and structured execution outcomes.",
+        text: "Coordinate the agreed on-site work, testing, documentation and handover.",
       },
     ],
     faqs: [
       {
         question: "Is this useful when procurement is already completed?",
         answer:
-          "Yes, implementation support can be especially useful where procurement is done and execution readiness becomes the next challenge.",
+          "Yes. Share the purchased equipment, delivery schedule and site details to discuss installation support.",
       },
       {
         question: "Can this help with site-readiness before rollout?",
         answer:
-          "Yes, site-readiness alignment is one of the key focus areas within implementation support.",
+          "Yes. We can review access, cabling, power, rack space and other stated site requirements.",
       },
     ],
     ctaTitle: "Planning an implementation or rollout?",
@@ -942,22 +942,22 @@ export const servicesData = [
       "Operational uptime planning scenarios",
     ],
     whyItMatters: [
-      "Supports continuity during power fluctuations or interruptions",
-      "Improves readiness for backup-critical environments",
-      "Helps align power planning with infrastructure dependence",
+      "Provides backup power for the equipment included in the load.",
+      "Helps plan the required runtime and installation location.",
+      "Connects the UPS specification to the equipment that needs backup.",
     ],
     process: [
       {
         title: "Assess",
-        text: "Understand continuity expectations, backup dependency and site-level power conditions.",
+        text: "List the connected equipment, load, required runtime and site power conditions.",
       },
       {
         title: "Plan",
-        text: "Map UPS direction, backup expectations and installation-related readiness needs.",
+        text: "Confirm the required UPS capacity, backup time, battery arrangement and installation scope.",
       },
       {
         title: "Execute",
-        text: "Support supply coordination and implementation readiness for continuity-focused environments.",
+        text: "Coordinate the agreed supply, installation and commissioning work.",
       },
     ],
     faqs: [
@@ -965,12 +965,12 @@ export const servicesData = [
         question:
           "Is UPS support useful for both office and technical environments?",
         answer:
-          "Yes, UPS planning can align with a wide range of operational environments depending on continuity needs.",
+          "Yes. Share the equipment list and required backup time for either office or IT loads.",
       },
       {
         question: "Can installation coordination also be supported?",
         answer:
-          "Yes, installation coordination can be aligned as part of a broader UPS and backup support scope.",
+          "Yes. Mention installation and commissioning in your enquiry if those services are required.",
       },
     ],
     ctaTitle: "Need backup power continuity support?",
@@ -1005,22 +1005,22 @@ export const servicesData = [
       "Site-specific backup planning needs",
     ],
     whyItMatters: [
-      "Supports daily continuity where power reliability matters",
-      "Helps align backup planning with real site conditions",
-      "Improves operational readiness during interruptions",
+      "Helps keep the specified equipment running during power interruptions.",
+      "Matches the backup request to the connected load and available space.",
+      "Makes the expected runtime and equipment coverage clear.",
     ],
     process: [
       {
         title: "Assess",
-        text: "Review site conditions, continuity expectations and current backup dependence.",
+        text: "Review the connected load, current power supply, site conditions and required runtime.",
       },
       {
         title: "Plan",
-        text: "Map inverter and backup support direction aligned with operational usage needs.",
+        text: "Confirm the battery or inverter requirement, load and expected backup time.",
       },
       {
         title: "Execute",
-        text: "Support readiness and coordination for practical power-backup implementation.",
+        text: "Coordinate the agreed supply and installation work.",
       },
     ],
     faqs: [
@@ -1028,12 +1028,12 @@ export const servicesData = [
         question:
           "Can inverter backup planning be aligned with office continuity needs?",
         answer:
-          "Yes, inverter and power-backup direction can be mapped based on site use and continuity expectations.",
+          "Yes. Tell us what equipment needs backup and for how long.",
       },
       {
         question: "Is site requirement support part of this service?",
         answer:
-          "Yes, site-level need assessment and requirement alignment are key parts of this scope.",
+          "Share the site location, connected load and installation details with your enquiry.",
       },
     ],
     ctaTitle: "Need support for inverter or backup planning?",
@@ -1068,22 +1068,22 @@ export const servicesData = [
       "Power infrastructure support requirements",
     ],
     whyItMatters: [
-      "Helps maintain continuity across backup-dependent systems",
-      "Supports proactive replacement planning",
-      "Reduces risk of operational disruption from battery failure",
+      "Supports backup systems that rely on compatible, correctly specified batteries.",
+      "Helps plan replacements before a battery reaches the end of its expected service life.",
+      "Keeps battery condition and replacement needs on the maintenance list.",
     ],
     process: [
       {
         title: "Assess",
-        text: "Understand current backup environment, battery dependence and replacement-stage concerns.",
+        text: "Identify the existing system, battery make and model, quantity and replacement need.",
       },
       {
         title: "Plan",
-        text: "Map battery support direction around continuity, compatibility and replacement readiness.",
+        text: "Check the required battery type, rating, dimensions and compatibility with the existing equipment.",
       },
       {
         title: "Execute",
-        text: "Support supply coordination and planning-led replacement continuity.",
+        text: "Coordinate the agreed battery supply and replacement work.",
       },
     ],
     faqs: [
@@ -1091,12 +1091,12 @@ export const servicesData = [
         question:
           "Can this help with replacement planning for existing backup systems?",
         answer:
-          "Yes, battery support can align with both existing system continuity and planned replacement requirements.",
+          "Yes. Share the current battery details and backup system model to discuss replacement.",
       },
       {
         question: "Is this limited to UPS battery environments only?",
         answer:
-          "No, battery-related support can align with broader backup and power continuity environments as needed.",
+          "No. Tell us whether the batteries are for a UPS or another backup-power system.",
       },
     ],
     ctaTitle: "Need support for battery continuity or replacement planning?",
