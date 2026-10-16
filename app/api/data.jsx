@@ -527,7 +527,7 @@ export function getRecentPostsForSlug(slug, limit = 4) {
 export function getAllCategories() {
   return [...new Set(blogPosts.map((post) => post.category))];
 }
-];
+
 export const servicesData = [
   {
     id: 1,
