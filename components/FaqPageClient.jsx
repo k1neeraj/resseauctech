@@ -3,6 +3,7 @@
 import { useMemo, useState } from "react";
 import PageBanner from "@/components/common/PageBanner";
 import ContactForm from "@/components/ContactForm";
+import FaqAccordion from "@/components/FaqAccordion";
 
 const faqTabs = [
   {
@@ -159,69 +160,13 @@ const faqTabs = [
   },
 ];
 
-function FaqItem({ item, isOpen, onToggle }) {
-  return (
-    <div className="overflow-hidden rounded-[24px] border border-black/6 bg-white shadow-[0_10px_40px_rgba(15,23,42,0.04)] transition duration-300 hover:-translate-y-0.5 hover:shadow-[0_18px_60px_rgba(15,23,42,0.08)]">
-      <button
-        type="button"
-        onClick={onToggle}
-        aria-expanded={isOpen}
-        className="flex w-full items-start gap-4 px-5 py-5 text-left sm:px-6 sm:py-6"
-      >
-        <span className="mt-1 flex h-9 w-9 shrink-0 items-center justify-center rounded-full border border-[var(--color-primary)]/15 bg-[var(--color-primary)]/8 text-[var(--color-primary)]">
-          <span
-            className={`block text-lg font-medium leading-none transition-transform duration-300 ${
-              isOpen ? "rotate-45" : "rotate-0"
-            }`}
-          >
-            +
-          </span>
-        </span>
-
-        <div className="flex-1">
-          <h3 className="text-[16px] font-semibold leading-7 text-slate-900 sm:text-[17px]">
-            {item.question}
-          </h3>
-        </div>
-      </button>
-
-      <div
-        className={`grid transition-all duration-300 ease-out ${
-          isOpen ? "grid-rows-[1fr] opacity-100" : "grid-rows-[0fr] opacity-70"
-        }`}
-      >
-        <div className="overflow-hidden">
-          <div className="border-t border-black/6 px-5 pb-5 pt-4 sm:px-6 sm:pb-6">
-            <p className="max-w-3xl text-[15px] leading-8 text-slate-600">
-              {item.answer}
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-  );
-}
-
 export default function Faq() {
   const [activeTab, setActiveTab] = useState(faqTabs[0].id);
-  const [openItems, setOpenItems] = useState({
-    information: 0,
-    pricing: 0,
-    privacy: 0,
-    security: 0,
-  });
-
   const currentTab = useMemo(
     () => faqTabs.find((tab) => tab.id === activeTab) || faqTabs[0],
     [activeTab]
   );
 
-  const handleToggle = (index) => {
-    setOpenItems((prev) => ({
-      ...prev,
-      [activeTab]: prev[activeTab] === index ? -1 : index,
-    }));
-  };
 
   return (
     <>
@@ -286,16 +231,7 @@ export default function Faq() {
               </div>
             </aside>
 
-            <div className="space-y-4">
-              {currentTab.items.map((item, index) => (
-                <FaqItem
-                  key={`${currentTab.id}-${index}`}
-                  item={item}
-                  isOpen={openItems[activeTab] === index}
-                  onToggle={() => handleToggle(index)}
-                />
-              ))}
-            </div>
+            <FaqAccordion key={currentTab.id} items={currentTab.items} />
           </div>
         </div>
       </section>
