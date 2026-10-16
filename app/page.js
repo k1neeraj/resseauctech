@@ -19,7 +19,7 @@ export const metadata = {
 const organizationSchema = {
   "@context": "https://schema.org",
   "@type": "Organization",
-  name: "Resseaux Tech Private Limited",
+  name: "Resseaux Tech",
   url: "https://www.resseauxtech.com",
   logo: "https://www.resseauxtech.com/img/logo/RTPLSquareLogo.png",
 };
