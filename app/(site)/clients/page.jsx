@@ -443,8 +443,8 @@ export default function ClientsPage() {
       </section>
       <RelatedFaqs
         items={pageFaqs.clients}
-        title="Client references and confidentiality"
-        description="How to discuss relevant experience while respecting tender conditions, authorisation and confidentiality obligations."
+        title="Working with Resseaux Tech"
+        description="Learn about the sectors we serve and how to discuss your organisation's IT requirements."
       />
     </main>
   );
