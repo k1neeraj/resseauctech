@@ -52,9 +52,7 @@ export default function AboutPage() {
           </h2>
 
           <p className="mt-4 text-base leading-8 text-[#111827]/68">
-            Resseaux Tech is guided by director-led oversight across
-            infrastructure planning, enterprise coordination and long-term
-            delivery support for government and large private organisations.
+            Resseaux Tech is led by its directors, who oversee business operations and project coordination.
           </p>
         </div>
 
