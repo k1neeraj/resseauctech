@@ -1,3 +1,4 @@
+import { createPageMetadata } from "@/lib/seo";
 import Image from "next/image";
 import Link from "next/link";
 import PageBanner from "@/components/common/PageBanner";
@@ -13,14 +14,12 @@ import {
   Landmark,
 } from "lucide-react";
 
-export const metadata = {
+export const metadata = createPageMetadata({
   title: "Clients",
   description:
     "See key client organisations served by Resseaux Tech across defence, government, research, healthcare, education, energy, infrastructure and enterprise environments in India.",
-  alternates: {
-    canonical: "/clients",
-  },
-};
+  path: "/clients",
+});
 
 const featuredClients = [
   { name: "Airports Authority of India", logo: "/clients/aai.png" },
