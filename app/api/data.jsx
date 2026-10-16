@@ -70,40 +70,38 @@ export const faqTabs = [
     ],
   },
   {
-    id: "privacy",
-    label: "Data and Privacy",
-    introHighlight: "Client environments require",
+    id: "delivery",
+    label: "Project Support",
+    introHighlight: "A clear plan makes",
     introRest:
-      "responsible handling of business data, access, and infrastructure visibility.",
+      "infrastructure projects easier to deliver and support.",
     introText:
-      "For infrastructure and security projects, privacy expectations typically include controlled access, limited exposure, and professional handling of client-side systems and information.",
+      "From checking the existing setup to installation and handover, the next steps depend on the requirements and agreed project scope.",
     items: [
       {
-        question: "How do you approach client data confidentiality?",
+        question: "What information do you need before deployment?",
         answer:
-          "For infrastructure engagements, confidentiality should be maintained through restricted access, need-based visibility, and controlled handling of project information, documentation, and credentials during implementation and support.",
+          "The existing setup, technical requirements, site details and target timeline help with planning. The exact information needed depends on the work involved.",
       },
       {
-        question:
-          "Do you require access to internal systems during deployment?",
+        question: "Will you work with our existing systems?",
         answer:
-          "Some projects may require administrative or controlled technical access depending on the scope. In such cases, access should be limited to what is necessary for deployment, testing, migration, or troubleshooting.",
+          "Where compatibility and the project scope allow it, the solution can be planned around the existing environment.",
       },
       {
-        question: "Who owns the infrastructure data and configurations?",
+        question: "Is documentation included after installation?",
         answer:
-          "Client-owned infrastructure, business data, and production configurations should remain under the client’s ownership. The implementation partner’s role is to deploy, configure, document, and support based on approved scope.",
+          "Documentation and handover can be included in the agreed scope, helping your team understand the setup and ongoing support needs.",
       },
       {
-        question: "Can sensitive information be shared in a controlled way?",
+        question: "Can support and maintenance be arranged after deployment?",
         answer:
-          "Yes. Requirement documents, credentials, topology details, and system information should be shared only with authorized stakeholders and through approved communication channels during the project lifecycle.",
+          "Yes. Support or maintenance can be discussed as part of the project or as a separate requirement.",
       },
       {
-        question:
-          "Do you support documentation and handover after implementation?",
+        question: "How do I get started?",
         answer:
-          "Yes, handover documentation is an important part of infrastructure work. It helps the client team understand topology, configurations, dependencies, and support checkpoints after implementation is completed.",
+          "Share a short description of the requirement, the site location and the expected timeline so the team can review the next steps.",
       },
     ],
   },
