@@ -20,13 +20,13 @@ const directors = [
     name: "Ramesh Kumar Vaswani",
     title: "Managing Director",
     image: "/img/team/ramesh-vaswani.png",
-    bio: "Providing overall business direction, leadership oversight and long-term strategic guidance across Resseaux Tech operations.",
+    bio: "Leads the company’s business direction and overall operations.",
   },
   {
     name: "Raajeev R Vaswani",
     title: "Director",
     image: "/img/team/raajeev-vaswani.png",
-    bio: "Supporting operational continuity, business coordination and internal alignment across ongoing enterprise requirements and delivery-led engagements.",
+    bio: "Supports business operations and coordination across client requirements.",
   },
 ];
 
@@ -36,7 +36,7 @@ export default function AboutPage() {
       <PageBanner
         pageName="About Us"
         eyebrow="About Resseaux Tech"
-        pageTitle="Infrastructure execution built for organisations, enterprises and mission-critical environments."
+        pageTitle="IT infrastructure products and deployment support across India."
       />
 
       <AboutIntro />
@@ -48,7 +48,7 @@ export default function AboutPage() {
           </div>
 
           <h2 className="mt-3 text-3xl font-semibold tracking-tight text-[#111827] md:text-4xl">
-            Leadership guiding long-term execution and business continuity
+            Meet our leadership
           </h2>
 
           <p className="mt-4 text-base leading-8 text-[#111827]/68">
@@ -97,7 +97,7 @@ export default function AboutPage() {
       <RelatedFaqs
         items={pageFaqs.about}
         title="Questions about Resseaux Tech"
-        description="Learn about the business focus, institutional requirements and confidentiality of project information."
+        description="Questions about our services, project requirements and how to contact the team."
       />
       <PartnerMarquee />
       <CtaBand />
