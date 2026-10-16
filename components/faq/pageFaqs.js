@@ -156,7 +156,7 @@ export const pageFaqs = {
     {
       question: "How can I ask about the use of my information?",
       answer:
-        "Use the contact details on the website to send your question about how information submitted through the site is handled.",
+        "Contact us with questions about how we handle information submitted through the enquiry form.",
     },
   ],
   terms: [
