@@ -1,15 +1,14 @@
+import { createPageMetadata } from "@/lib/seo";
 import PageBanner from "@/components/common/PageBanner";
 import RelatedFaqs from "@/components/RelatedFaqs";
 import { pageFaqs } from "@/components/faq/pageFaqs";
 
-export const metadata = {
+export const metadata = createPageMetadata({
   title: "Privacy Policy",
   description:
     "Read the Privacy Policy of Resseaux Tech regarding data collection, usage, security, cookies, and your rights.",
-  alternates: {
-    canonical: "/privacy-policy",
-  },
-};
+  path: "/privacy-policy",
+});
 
 export default function PrivacyPolicyPage() {
   return (
