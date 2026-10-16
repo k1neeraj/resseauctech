@@ -1,6 +1,8 @@
 import Link from "next/link";
 import PageBanner from "@/components/common/PageBanner";
 import { getAllPosts, getAllCategories, getRecentPosts } from "@/app/api/data";
+import RelatedFaqs from "@/components/RelatedFaqs";
+import { pageFaqs } from "@/components/faq/pageFaqs";
 
 export const metadata = {
   title: "Blog",
@@ -145,6 +147,11 @@ export default function BlogPage() {
           </div>
         </div>
       </section>
+      <RelatedFaqs
+        items={pageFaqs.blog}
+        title="About our infrastructure insights"
+        description="How to use these articles when researching procurement and technical requirements."
+      />
     </>
   );
 }
