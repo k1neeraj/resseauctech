@@ -86,8 +86,7 @@ export default function Footer() {
             </a>
 
             <p className="mt-5 max-w-[280px] text-[14px] leading-7 text-[var(--color-text-inverse-muted)]">
-              Secure and scalable IT infrastructure solutions for enterprise,
-              institutional, and project-driven environments.
+              IT products and implementation support for networking, security, servers, storage, cloud, virtualization and power backup.
             </p>
 
             <p className="mt-5 max-w-[280px] text-[14px] leading-7 text-[var(--color-text-inverse-soft)]">
