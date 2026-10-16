@@ -52,9 +52,9 @@ export const pageFaqs = {
   ],
   blog: [
     {
-      question: "What will I find on the Resseaux Tech blog?",
+      question: "Which IT products and services can I enquire about?",
       answer:
-        "The blog covers IT infrastructure, GeM procurement, networking, security, servers, storage, UPS, batteries and project planning.",
+        "We handle enquiries for networking, security, servers, storage, cloud, virtualization, UPS, batteries and related implementation support.",
     },
     {
       question: "Can I use a blog article to prepare for a tender?",
@@ -62,9 +62,9 @@ export const pageFaqs = {
         "Articles can help with general preparation, but always follow the latest tender document, amendments and official clarifications for a live bid.",
     },
     {
-      question: "Can I ask about a topic covered in an article?",
+      question: "Can I request a quote based on a topic in an article?",
       answer:
-        "Of course. Send your question through the contact page and include any relevant technical details.",
+        "Yes. Send us the BOQ or product and service details through the contact page, along with quantities, site location and timeline.",
     },
   ],
   careers: [
@@ -304,6 +304,66 @@ const blogFaqs = {
       question: "Why is project documentation useful?",
       answer:
         "Good documentation helps teams understand the setup, support the systems and plan future changes more easily.",
+    },
+  ],
+  "structured-cabling-network-deployment-new-sites": [
+    {
+      question: "What details do you need for a structured cabling quote?",
+      answer:
+        "Send floor plans or drawings if available, the number of network points, site locations, cabling requirements and whether installation, testing and labelling are included.",
+    },
+    {
+      question: "Can the quote include network equipment as well as cabling?",
+      answer:
+        "Yes. Tell us whether the scope also includes switches, racks, patch panels, optics, configuration or handover.",
+    },
+  ],
+  "managed-network-switches-wifi-office-campus": [
+    {
+      question: "What should I share when requesting a switch or Wi-Fi quote?",
+      answer:
+        "Include port counts, speed, PoE needs, uplinks, coverage areas, device counts, preferred OEM and site details.",
+    },
+    {
+      question: "Can you quote installation along with the equipment?",
+      answer:
+        "Mention whether you need configuration, mounting, testing and documentation as part of the deployment.",
+    },
+  ],
+  "hci-vs-server-storage-infrastructure-projects": [
+    {
+      question: "What information helps with a server, storage or HCI quotation?",
+      answer:
+        "Share workload details, CPU and memory needs, usable capacity, growth expectations, backup requirements, preferred OEM and any existing platform constraints.",
+    },
+    {
+      question: "Can the proposal include implementation?",
+      answer:
+        "Yes. State whether you need installation, configuration, migration, testing or handover as well as equipment supply.",
+    },
+  ],
+  "firewall-endpoint-security-procurement-office": [
+    {
+      question: "What should a firewall or endpoint security quote include?",
+      answer:
+        "Share user and site counts, internet links, remote-access needs, current equipment, required licence term, preferred OEM and support expectations.",
+    },
+    {
+      question: "Can you include deployment and configuration?",
+      answer:
+        "Tell us whether the project also requires policy migration, configuration, testing or integration with existing systems.",
+    },
+  ],
+  "request-it-infrastructure-quote-boq-specification": [
+    {
+      question: "How do I request a quote from Resseaux Tech?",
+      answer:
+        "Use the contact form and include your BOQ or specification, quantities, preferred OEM or model, delivery location and timeline.",
+    },
+    {
+      question: "Which products and services can I enquire about?",
+      answer:
+        "You can enquire about networking, security, servers, storage, cloud, virtualization, UPS, batteries and related implementation support.",
     },
   ],
 };
