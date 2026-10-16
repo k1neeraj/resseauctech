@@ -1,6 +1,8 @@
 import Link from "next/link";
 import PageBanner from "@/components/common/PageBanner";
 import { getAllServices } from "@/app/api/data";
+import RelatedFaqs from "@/components/RelatedFaqs";
+import { pageFaqs } from "@/components/faq/pageFaqs";
 
 export const metadata = {
   title: "Services",
@@ -94,6 +96,11 @@ export default function ServicesPage() {
           </div>
         </div>
       </section>
+      <RelatedFaqs
+        items={pageFaqs.services}
+        title="Service planning FAQs"
+        description="What to prepare before discussing an infrastructure requirement with our team."
+      />
     </>
   );
 }
