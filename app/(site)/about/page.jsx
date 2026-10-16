@@ -4,6 +4,8 @@ import PageBanner from "@/components/common/PageBanner";
 import PartnerMarquee from "@/components/common/PartnerMarquee";
 import CtaBand from "@/components/sections/CtaBand";
 import React from "react";
+import RelatedFaqs from "@/components/RelatedFaqs";
+import { pageFaqs } from "@/components/faq/pageFaqs";
 
 export const metadata = {
   title: "IT Infrastructure Company in India",
@@ -93,6 +95,11 @@ export default function AboutPage() {
         </div>
       </section>
 
+      <RelatedFaqs
+        items={pageFaqs.about}
+        title="Questions about Resseaux Tech"
+        description="Learn about the business focus, institutional requirements and confidentiality of project information."
+      />
       <PartnerMarquee />
       <CtaBand />
     </div>
