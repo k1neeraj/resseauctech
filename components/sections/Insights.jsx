@@ -38,13 +38,11 @@ const Insights = () => {
             </p>
 
             <h2 className="max-w-[720px] text-[44px] font-semibold leading-[1.12] tracking-[-0.04em] text-white max-[1200px]:text-[38px] max-[992px]:text-[32px] max-[768px]:text-[26px]">
-              Latest articles for infrastructure, procurement and project teams.
+              Product and procurement guides for your next IT project.
             </h2>
 
             <p className="mt-[16px] max-w-[620px] text-[15px] leading-[1.9] text-[rgba(255,255,255,0.7)]">
-              Practical perspectives around GeM procurement, network planning, power
-              backup, data center decisions and infrastructure readiness for
-              institutional and enterprise environments.
+              Browse our guides to networking, security, servers, storage, UPS, batteries and IT procurement. Need a quote? Send us your BOQ or product requirement.
             </p>
           </div>
 
@@ -53,7 +51,7 @@ const Insights = () => {
               href="/blog"
               className="inline-flex items-center justify-center rounded-full border border-[rgba(255,255,255,0.22)] px-[20px] py-[11px] text-[14px] font-semibold text-white transition-all duration-300 hover:border-[rgba(245,124,0,1)] hover:text-[rgba(245,124,0,1)]"
             >
-              View All Articles
+              Browse All Guides
             </Link>
           </div>
         </div>
@@ -104,7 +102,7 @@ const Insights = () => {
                     href={`/blog/${post.slug}`}
                     className="inline-flex items-center gap-[8px] text-[14px] font-semibold text-[rgba(248,250,252,0.92)] transition-colors duration-300 group-hover:text-[rgba(245,124,0,1)]"
                   >
-                    <span>Read Article</span>
+                    <span>View Guide</span>
                     <span className="transition-transform duration-300 group-hover:translate-x-[3px]">
                       →
                     </span>
