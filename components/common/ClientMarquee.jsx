@@ -226,12 +226,11 @@ export default function ClientMarquee() {
         </div>
 
         <h2 className="mt-3 text-3xl font-semibold tracking-tight text-[#111827] md:text-4xl">
-          Organisations we are proud to support
+          Organisations we work with
         </h2>
 
         <p className="mt-4 text-base leading-8 text-[#111827]/68">
-          A selection of government, research, defence and enterprise
-          organisations represented in the Resseaux Tech client profile.
+          Our client list includes organisations across government, research, defence and enterprise environments.
         </p>
       </div>
 
