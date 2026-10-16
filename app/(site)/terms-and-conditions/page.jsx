@@ -1,4 +1,6 @@
 import PageBanner from "@/components/common/PageBanner";
+import RelatedFaqs from "@/components/RelatedFaqs";
+import { pageFaqs } from "@/components/faq/pageFaqs";
 
 export const metadata = {
   title: "Terms & Conditions",
@@ -146,6 +148,11 @@ export default function TermsAndConditionsPage() {
           </div>
         </div>
       </section>
+      <RelatedFaqs
+        items={pageFaqs.terms}
+        title="Terms and conditions FAQs"
+        description="How to interpret general website information alongside formal procurement and contract documents."
+      />
     </>
   );
 }
