@@ -3,33 +3,33 @@ import Link from "next/link";
 const reasons = [
   {
     id: "01",
-    title: "Requirement-first planning",
-    text: "We begin with actual site, workload and project needs so recommendations stay aligned with deployment reality instead of generic product push.",
+    title: "Start with your BOQ and site requirements",
+    text: "We review quantities, specifications, compatibility and site conditions before discussing a supply or deployment scope.",
   },
   {
     id: "02",
-    title: "Institutional and enterprise focus",
-    text: "Our approach fits organizations that need reliability, structured coordination, documentation and delivery discipline across critical environments.",
+    title: "Government, institutional and enterprise projects",
+    text: "Share the applicable tender or project requirements, delivery locations and timeline so we can review what is needed.",
   },
   {
     id: "03",
-    title: "Strong partner ecosystem",
-    text: "With access to established OEM and infrastructure partners, we help align solution design with performance, support and long-term continuity goals.",
+    title: "Products across established technology brands",
+    text: "Our listed technology partners cover networking, compute, storage, UPS, batteries and data-centre infrastructure.",
   },
   {
     id: "04",
-    title: "Implementation-led execution",
-    text: "We think beyond supply by considering installation readiness, rollout coordination, integration dependencies and post-deployment usability.",
+    title: "Supply and implementation in one discussion",
+    text: "Where required, discuss equipment supply alongside installation, configuration, integration, testing and handover.",
   },
   {
     id: "05",
-    title: "Documentation and handover",
-    text: "Structured documentation, configuration clarity and handover support help internal teams operate, maintain and scale environments with confidence.",
+    title: "Clear installation and handover scope",
+    text: "Tell us whether the scope needs configuration records, testing, site documentation or handover to your IT team.",
   },
   {
     id: "06",
-    title: "Support-conscious delivery",
-    text: "From deployment planning to continuity needs, we keep supportability in view so systems remain practical to manage after implementation.",
+    title: "Support after delivery",
+    text: "Include warranty, service coverage or AMC requirements before finalising the order.",
   },
 ];
 
@@ -64,7 +64,7 @@ const WhyChooseResseaux = () => {
           </p>
 
           <h2 className="max-w-[820px] text-[48px] font-semibold leading-[1.08] tracking-[-0.04em] text-[#121820] max-[1200px]:text-[42px] max-[992px]:text-[34px] max-[768px]:text-[28px]">
-            Why organizations choose Resseaux for infrastructure execution.
+            Why work with Resseaux Tech?
           </h2>
 
           <p className="mt-[18px] max-w-[680px] text-[16px] leading-[1.9] text-[rgba(18,24,32,0.62)] max-[768px]:text-[15px]">
@@ -103,7 +103,7 @@ const WhyChooseResseaux = () => {
 
         <div className="mt-[44px] flex flex-col gap-[16px] border-t border-[rgba(18,24,32,0.08)] pt-[28px] sm:flex-row sm:items-center sm:justify-between">
           <p className="max-w-[760px] text-[14px] leading-[1.8] text-[rgba(18,24,32,0.56)]">
-            Need a clearer view of how we support planning, deployment and long-term infrastructure continuity?
+            Have a BOQ, product list or deployment requirement to discuss?
           </p>
 
           <div className="flex flex-wrap items-center gap-[12px]">
@@ -111,14 +111,14 @@ const WhyChooseResseaux = () => {
               href="/about"
               className="inline-flex items-center justify-center rounded-full border border-[rgba(18,24,32,0.12)] px-[20px] py-[12px] text-[14px] font-semibold text-[#121820] transition-all duration-300 hover:border-[rgba(245,124,0,1)] hover:text-[rgba(245,124,0,1)]"
             >
-              About Company
+              About Us
             </Link>
 
             <Link
               href="/contact"
               className="inline-flex items-center justify-center rounded-full bg-[rgba(245,124,0,1)] px-[22px] py-[13px] text-[14px] font-semibold text-white transition-all duration-300 hover:translate-y-[-1px] hover:bg-[rgba(224,108,0,1)]"
             >
-              Talk To Our Team
+              Request a Quote
             </Link>
           </div>
         </div>
