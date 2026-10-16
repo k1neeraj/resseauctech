@@ -10,27 +10,27 @@ export const faqTabs = [
       {
         question: "What does Resseaux Tech do?",
         answer:
-          "Resseaux Tech is an IT infrastructure solution provider and system integrator that works across security services, network design and implementation, data center services, cloud services, virtualization, storage and HCI solution, and IoT services.",
+          "We provide IT infrastructure products and services across networking, security, data centre, cloud, virtualization, storage, HCI and IoT.",
       },
       {
         question: "Which industries or organizations do you work with?",
         answer:
-          "We position our services for organizations that need reliable IT infrastructure, secure networking, and scalable technology environments. Our solution approach is suitable for businesses, institutions, and enterprises looking for implementation as well as long-term support.",
+          "We work with businesses, institutions and enterprises that need IT infrastructure products, implementation or ongoing support.",
       },
       {
         question: "Do you only supply products or also handle implementation?",
         answer:
-          "Our positioning is not limited to product supply. We work as a system integrator, which means we can help with assessment, planning, deployment, configuration, and support across the relevant infrastructure layer.",
+          "We can discuss equipment supply as well as planning, deployment, configuration and support, depending on the project scope.",
       },
       {
         question: "What are your core service areas?",
         answer:
-          "Our listed service areas include Security Services, Network Design and Implementation, Data Center Services, Cloud Services, Virtualization, Storage and HCI solution, and IoT services.",
+          "Our service areas include security, network design and implementation, data centre, cloud, virtualization, storage, HCI and IoT.",
       },
       {
         question: "Where is Resseaux Tech located?",
         answer:
-          "The company lists New Delhi addresses including C-2, Soami Nagar (South), New Delhi -110017 and T-19A, Malviya Nagar, near Krishna Mandir, New Delhi -110017.",
+          "Our office is at T-19A, near Krishna Mandir, Khirki Extension, Malviya Nagar, New Delhi - 110017. Contact details are on the Contact page.",
       },
     ],
   },
@@ -60,12 +60,12 @@ export const faqTabs = [
       {
         question: "Do you handle both small and enterprise requirements?",
         answer:
-          "The service mix suggests flexibility across different scales of infrastructure work. The right pricing and execution model would depend on whether the need is a focused deployment or a broader enterprise-grade integration requirement.",
+          "We review both focused requirements and larger deployments. Pricing depends on the products, site count and services included in the agreed scope.",
       },
       {
         question: "Can support and maintenance be added separately?",
         answer:
-          "Yes, that is a practical model for infrastructure projects. Implementation and support can be discussed as separate commercial layers depending on whether the client needs only deployment or ongoing operational assistance as well.",
+          "Yes. Tell us whether you need installation only, ongoing support or both, and we can quote the requested scope separately.",
       },
     ],
   },
@@ -111,34 +111,34 @@ export const faqTabs = [
     introHighlight: "Security is central",
     introRest: "to resilient networks, systems, and business continuity.",
     introText:
-      "Since security services are part of the company’s listed offerings, the FAQ should reflect practical client concerns around protection, access control, visibility, and operational continuity.",
+      "We support security requirements involving firewalls, endpoint protection, access control and secure network operations.",
     items: [
       {
         question: "What kind of security services can Resseaux Tech support?",
         answer:
-          "The company lists Security Services as one of its core offerings. In practical terms, this can relate to protecting infrastructure environments, strengthening access control, reducing risk exposure, and supporting secure enterprise operations.",
+          "We can discuss firewall, endpoint protection and access-control requirements for your existing or planned IT environment.",
       },
       {
         question:
           "Can security be integrated with network and data center projects?",
         answer:
-          "Yes. Security is most effective when it is aligned with networking, data center, cloud, and virtualization layers instead of being treated as an isolated add-on.",
+          "Yes. Security requirements can be included in a wider networking, data centre, cloud or virtualization project.",
       },
       {
         question:
           "Do you help improve infrastructure resilience and continuity?",
         answer:
-          "Yes. Security planning often overlaps with resilience, controlled access, monitoring, recovery planning, and safer architecture decisions that reduce downtime and operational exposure.",
+          "Yes. Tell us whether the scope includes monitoring, access controls, backup or recovery requirements as well as security products.",
       },
       {
         question: "Can existing setups be reviewed for security gaps?",
         answer:
-          "Yes, that is a common first step in infrastructure improvement projects. A review helps identify misconfigurations, weak points, outdated deployment practices, and priority areas for hardening.",
+          "Share the current equipment and network setup, plus the issues you want addressed. We can review the requested scope and discuss the available next steps.",
       },
       {
         question: "Do you support secure modernization of legacy environments?",
         answer:
-          "Yes. As businesses move toward cloud, virtualization, storage optimization, and modern network architecture, security needs to be considered alongside modernization so that new deployments remain stable and protected.",
+          "Yes. Include security requirements when requesting a quote for a cloud, virtualization, storage or network upgrade.",
       },
     ],
   },
@@ -534,14 +534,14 @@ export const servicesData = [
     slug: "network-infrastructure",
     title: "Network & Infrastructure",
     description:
-      "Network and infrastructure support for government, institutional and project-driven environments.",
+      "LAN/WAN, structured cabling, switching and routing for offices, campuses and institutional sites.",
     points: ["LAN / WAN planning", "Structured cabling", "Switching & routing"],
     href: "/services/network-infrastructure",
     featured: true,
     intro:
-      "Enterprise-ready network foundations planned around stability, site-readiness and long-term operability.",
+      "Network equipment and implementation support for new sites, upgrades and network expansions.",
     overview:
-      "Resseaux Tech supports network and infrastructure requirements across office environments, institutions and deployment-led projects. The focus remains on practical network planning, structured physical readiness, hardware alignment and dependable execution support based on actual operating conditions.",
+      "We help organisations source and deploy network infrastructure for offices, campuses and institutional projects. Scope can include LAN/WAN planning, structured cabling, switching, routing and deployment coordination. Send us your BOQ, site details or current network layout so we can review what is needed.",
     deliverables: [
       "LAN and WAN requirement planning",
       "Structured cabling and physical network readiness",
@@ -590,21 +590,21 @@ export const servicesData = [
     ],
     ctaTitle: "Need help planning network infrastructure?",
     ctaText:
-      "Share your requirement, environment scope or deployment need and our team can help define the right service direction.",
+      "Send your BOQ, site layout or equipment list, along with the location and target date, to discuss network supply or implementation.",
   },
   {
     id: 2,
     slug: "security-solutions",
     title: "Security Solutions",
     description:
-      "Security-focused deployments built around visibility, resilience and controlled access.",
+      "Firewall, endpoint protection and access-control requirements for business and institutional networks.",
     points: ["Firewall solutions", "Endpoint protection", "Access control"],
     href: "/services/security-solutions",
     featured: true,
     intro:
-      "Security support designed to improve visibility, resilience and control across business-critical IT environments.",
+      "Security products and implementation support matched to your users, sites and existing network.",
     overview:
-      "Resseaux Tech supports security-focused infrastructure requirements where controlled access, endpoint awareness and perimeter protection matter. The service is aligned around practical implementation thinking so organizations can strengthen their operational environment without unnecessary complexity.",
+      "We work on security requirements involving firewalls, endpoint protection and access control. Share the number of users and sites, current network, preferred OEM and required licence or support term so we can discuss the equipment and any deployment services.",
     deliverables: [
       "Firewall-aligned requirement planning",
       "Endpoint protection support direction",
@@ -651,23 +651,23 @@ export const servicesData = [
           "No, security-focused planning can be relevant for institutions, offices and other operational environments of different scales.",
       },
     ],
-    ctaTitle: "Need to strengthen your security environment?",
+    ctaTitle: "Need a firewall or endpoint security quote?",
     ctaText:
-      "Share your current requirement or control-related concern and our team can help map the right service direction.",
+      "Send us the current network details, user and site counts, preferred OEM and licence term to discuss suitable security products and deployment scope.",
   },
   {
     id: 3,
     slug: "cloud-services",
     title: "Cloud Services",
     description:
-      "Cloud and hybrid infrastructure support for scalable workloads and backup continuity.",
+      "Cloud readiness, hybrid infrastructure and backup-workflow support.",
     points: ["Cloud readiness", "Hybrid environments", "Backup workflows"],
     href: "/services/cloud-services",
     featured: true,
     intro:
-      "Cloud-oriented support structured around readiness, continuity and practical hybrid infrastructure planning.",
+      "Support for assessing workloads, connecting existing systems and planning cloud changes.",
     overview:
-      "Resseaux Tech supports cloud and hybrid infrastructure requirements where continuity, workload flexibility and operational clarity are important. The focus remains on readiness planning, backup-oriented thinking and practical alignment between existing infrastructure and evolving cloud requirements.",
+      "We work with organisations evaluating cloud or hybrid infrastructure. Tell us which workloads are involved, what will remain on-site, your backup requirements and any migration constraints. We can discuss readiness and implementation scope based on those details.",
     deliverables: [
       "Cloud readiness assessment support",
       "Hybrid infrastructure direction mapping",
@@ -716,14 +716,14 @@ export const servicesData = [
     ],
     ctaTitle: "Planning cloud or hybrid infrastructure changes?",
     ctaText:
-      "Share your current environment and continuity requirement so the right support direction can be mapped.",
+      "Send your workload summary, current environment, target timeline and backup or migration requirements to discuss cloud support.",
   },
   {
     id: 4,
     slug: "virtualization",
     title: "Virtualization",
     description:
-      "Virtualization support to improve utilization, flexibility and operational efficiency.",
+      "Server virtualization, workload consolidation and resource planning.",
     points: [
       "Server virtualization",
       "Workload planning",
@@ -732,9 +732,9 @@ export const servicesData = [
     href: "/services/virtualization",
     featured: true,
     intro:
-      "Virtualization support focused on efficient workload use, infrastructure flexibility and practical resource planning.",
+      "Support for checking current servers and workloads before consolidation or a platform upgrade.",
     overview:
-      "Resseaux Tech supports virtualization-led requirements where consolidation, better infrastructure utilization and flexible workload handling are key priorities. The approach stays aligned with practical deployment conditions and long-term operational efficiency rather than isolated technical decisions alone.",
+      "We can discuss virtualization projects involving server consolidation, workload planning and resource allocation. Share your current server configuration, workload summary, storage needs and required platform so the scope can be reviewed.",
     deliverables: [
       "Server virtualization planning support",
       "Workload distribution alignment",
@@ -783,21 +783,21 @@ export const servicesData = [
     ],
     ctaTitle: "Need support for virtualization planning?",
     ctaText:
-      "Share your workload environment and infrastructure goals so the right virtualization direction can be defined.",
+      "Share your server inventory, workloads and target capacity to discuss virtualization or implementation support.",
   },
   {
     id: 5,
     slug: "storage-hci",
     title: "Storage & HCI",
     description:
-      "Storage and hyperconverged infrastructure support for scale, performance and simplified management.",
+      "Storage and hyperconverged infrastructure for capacity, performance and manageability.",
     points: ["Shared storage", "HCI environments", "Capacity planning"],
     href: "/services/storage-hci",
     featured: true,
     intro:
-      "Storage and HCI support built around performance continuity, capacity clarity and manageable infrastructure scale.",
+      "Storage and HCI options for new deployments, upgrades and capacity expansion.",
     overview:
-      "Resseaux Tech supports storage and hyperconverged infrastructure requirements where simplified management, performance consistency and future capacity planning are important. The service direction is aligned with infrastructure readiness, operational continuity and realistic scale expectations.",
+      "We handle storage and HCI enquiries for new deployments and upgrades. Share your workload, usable capacity, performance needs, growth expectations and existing server or storage setup so we can discuss the relevant products and services.",
     deliverables: [
       "Shared storage planning support",
       "HCI requirement alignment",
@@ -846,21 +846,21 @@ export const servicesData = [
     ],
     ctaTitle: "Need support for storage or HCI planning?",
     ctaText:
-      "Share your environment, capacity concern or performance requirement and our team can help map the right direction.",
+      "Send the current configuration, required capacity, site details and preferred OEM to discuss storage or HCI options.",
   },
   {
     id: 6,
     slug: "implementation-support",
     title: "Implementation Support",
     description:
-      "Execution-focused deployment support covering coordination, installation and project readiness.",
+      "Installation, configuration, integration and rollout coordination for IT infrastructure projects.",
     points: ["Deployment support", "Site readiness", "Project coordination"],
     href: "/services/implementation-support",
     featured: true,
     intro:
-      "Execution-focused support designed to move requirements from planning into stable on-ground deployment.",
+      "Implementation support for equipment supply, installation, configuration and handover.",
     overview:
-      "Resseaux Tech supports implementation-led requirements where coordination, site-readiness and practical rollout flow matter as much as the technical scope itself. The emphasis remains on real execution support that helps reduce delays, confusion and deployment-stage disconnects.",
+      "Tell us what equipment is being installed, which sites are involved, the expected schedule and whether you need configuration, integration, testing or handover. We can review the implementation scope against those details.",
     deliverables: [
       "Deployment support coordination",
       "Site readiness alignment",
@@ -908,14 +908,14 @@ export const servicesData = [
     ],
     ctaTitle: "Planning an implementation or rollout?",
     ctaText:
-      "Share your project stage, deployment need or readiness concern and our team can help align the execution direction.",
+      "Send the equipment list, site locations and work required to discuss installation or rollout support.",
   },
   {
     id: 7,
     slug: "ups-systems",
     title: "UPS Systems",
     description:
-      "UPS supply and support for power continuity across IT rooms, offices and project sites.",
+      "UPS supply and support for server rooms, network racks, offices and critical IT loads.",
     points: [
       "Online UPS",
       "Backup power planning",
@@ -924,9 +924,9 @@ export const servicesData = [
     href: "/services/ups-systems",
     featured: false,
     intro:
-      "UPS support built around continuity planning, backup reliability and power-sensitive operational needs.",
+      "UPS options and installation support based on your load and backup-time requirement.",
     overview:
-      "Resseaux Tech supports UPS system requirements for offices, IT environments and project-led operations where power continuity is critical. The service is aligned with backup readiness, installation coordination and practical planning around operational dependence on stable power support.",
+      "We handle UPS enquiries for server rooms, network racks, offices and project sites. Share the connected load, required backup time, site details and preferred OEM so we can discuss the suitable equipment and installation scope.",
     deliverables: [
       "Online UPS support direction",
       "Backup power planning alignment",
@@ -975,21 +975,21 @@ export const servicesData = [
     ],
     ctaTitle: "Need backup power continuity support?",
     ctaText:
-      "Share your environment and uptime requirement so the right UPS support direction can be mapped.",
+      "Share the load, required runtime, site location and installation needs to request UPS pricing.",
   },
   {
     id: 8,
     slug: "inverter-power-backup",
     title: "Inverter & Power Backup",
     description:
-      "Power-backup solutions for operational continuity in office, institutional and project-driven environments.",
+      "Inverter and power-backup options for offices, institutions and project sites.",
     points: ["Inverter systems", "Backup planning", "Site requirement support"],
     href: "/services/inverter-power-backup",
     featured: false,
     intro:
-      "Power-backup support designed around continuity needs, practical site conditions and operational reliability.",
+      "Backup power supply matched to the connected load and required runtime.",
     overview:
-      "Resseaux Tech supports inverter and power-backup requirements where day-to-day continuity and usable backup planning are important. The service remains aligned with site requirements, practical load conditions and operational dependence on stable power availability.",
+      "We handle inverter and power-backup enquiries for office and institutional sites. Tell us the equipment or loads to be backed up, required runtime, site conditions and whether installation is needed.",
     deliverables: [
       "Inverter system support direction",
       "Operational backup planning",
@@ -1038,21 +1038,21 @@ export const servicesData = [
     ],
     ctaTitle: "Need support for inverter or backup planning?",
     ctaText:
-      "Share your power continuity requirement and site condition so the right backup direction can be mapped.",
+      "Send your load details, required runtime, site location and timeline to discuss power-backup products.",
   },
   {
     id: 9,
     slug: "battery-solutions",
     title: "Battery Solutions",
     description:
-      "Battery supply support for backup systems, power infrastructure and operational continuity requirements.",
+      "Battery supply for UPS systems and other backup-power requirements.",
     points: ["UPS batteries", "Backup battery support", "Replacement planning"],
     href: "/services/battery-solutions",
     featured: false,
     intro:
-      "Battery support aligned with backup continuity, system reliability and replacement planning needs.",
+      "Battery replacement and supply for existing or new backup-power systems.",
     overview:
-      "Resseaux Tech supports battery-related requirements across backup systems and power infrastructure where continuity and timely replacement matter. The focus remains on practical support for operational readiness, replacement planning and aligned supply for dependable backup environments.",
+      "We handle battery supply and replacement enquiries for backup systems. Share the existing battery make and model, quantity, system type, site location and replacement timeline so we can review the requirement.",
     deliverables: [
       "UPS battery support direction",
       "Backup battery requirement alignment",
@@ -1101,7 +1101,7 @@ export const servicesData = [
     ],
     ctaTitle: "Need support for battery continuity or replacement planning?",
     ctaText:
-      "Share your backup environment and replacement concern so the right supply direction can be mapped.",
+      "Send the battery model, quantity, equipment details and site location to request pricing.",
   },
 ];
 
