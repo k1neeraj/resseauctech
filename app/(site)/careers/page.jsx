@@ -56,53 +56,8 @@ Regards,`);
 
   const mailtoLink = `mailto:${openRole.applyEmail}?subject=${subject}&body=${body}`;
 
-  const jobPostingSchema = {
-    "@context": "https://schema.org",
-    "@type": "JobPosting",
-    title: openRole.title,
-    description:
-      "Resseaux Tech is hiring an experienced sales professional for government, institutional, and enterprise IT infrastructure business. The role involves requirement shaping, account growth, solution-led sales, and long-cycle opportunity development across networking, security, cloud, virtualization, storage, power backup, and implementation support.",
-    employmentType: openRole.type,
-    jobLocation: [
-      {
-        "@type": "Place",
-        address: {
-          "@type": "PostalAddress",
-          addressLocality: "New Delhi",
-          addressCountry: "IN",
-        },
-      },
-      {
-        "@type": "Place",
-        address: {
-          "@type": "PostalAddress",
-          addressLocality: "Bengaluru",
-          addressCountry: "IN",
-        },
-      },
-    ],
-    hiringOrganization: {
-      "@type": "Organization",
-      name: "Resseaux Tech",
-      sameAs: "https://www.resseauxtech.com",
-    },
-    applicantLocationRequirements: {
-      "@type": "Country",
-      name: "India",
-    },
-    directApply: true,
-    experienceRequirements: "4–5 years of relevant sales experience",
-  };
-
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(jobPostingSchema),
-        }}
-      />
-
       <PageBanner
         pageName="Careers"
         pageTitle="Careers at Resseaux Tech"
