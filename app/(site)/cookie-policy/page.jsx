@@ -1,5 +1,7 @@
 import PageBanner from "@/components/common/PageBanner";
 import Link from "next/link";
+import RelatedFaqs from "@/components/RelatedFaqs";
+import { pageFaqs } from "@/components/faq/pageFaqs";
 
 const cookieSections = [
   {
@@ -199,6 +201,11 @@ export default function CookiePolicyPage() {
           </div>
         </div>
       </section>
+      <RelatedFaqs
+        items={pageFaqs.cookiePolicy}
+        title="Cookie policy FAQs"
+        description="Basic information about browser storage and cookie controls."
+      />
     </>
   );
 }
