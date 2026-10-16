@@ -82,40 +82,40 @@ const faqTabs = [
     ],
   },
   {
-    id: "privacy",
-    label: "Data & Privacy",
-    eyebrow: "Controlled access",
-    title: "Sensitive information handled with professional discipline.",
+    id: "delivery",
+    label: "Project Support",
+    eyebrow: "Planning and delivery",
+    title: "From the initial requirement to handover.",
     description:
-      "Projects may involve diagrams, credentials, system notes, environment access, and internal configurations. These should be handled only on a controlled need-to-know basis.",
-    noteTitle: "Sensitive environment?",
+      "Good infrastructure work starts with a clear scope, a realistic plan and a smooth handover to the team that will use the system.",
+    noteTitle: "Planning a project?",
     noteText:
-      "Discussions can begin at a high level first, then move into controlled technical access only when truly required.",
+      "Share the main requirement, site details and expected timeline to start the discussion.",
     items: [
       {
-        question: "How do you handle confidential project information?",
+        question: "What happens after I share a requirement?",
         answer:
-          "Internal diagrams, credentials, configuration notes, and project files should only be used for approved project activity and shared with authorized stakeholders involved in execution.",
+          "The team can review the scope, ask for any missing details and discuss the next steps based on the project.",
       },
       {
-        question: "Do you need access to internal systems?",
+        question: "Will you work with our existing systems?",
         answer:
-          "Sometimes yes. Deployment and troubleshooting tasks may require restricted access, and project-specific or time-bound credentials are generally the safest approach.",
+          "Yes, where the requirements and compatibility allow it. Details of the current setup help us understand what needs to connect or change.",
       },
       {
-        question: "Who owns the final environment and configurations?",
+        question: "Do you provide documentation after installation?",
         answer:
-          "The production environment, data, and final configuration ownership remain with the client. Our role is to implement, document, structure, and support the environment within scope.",
+          "Documentation and handover can be included in the agreed project scope so your team understands the setup and how it is intended to operate.",
       },
       {
-        question: "Will information be shared externally?",
+        question: "Can support be arranged after deployment?",
         answer:
-          "Only where genuinely required for OEM coordination, escalation, or execution support, and even then only the minimum necessary information should be shared.",
+          "Yes. Ongoing support or maintenance can be discussed separately, depending on the system and the level of support required.",
       },
       {
-        question: "Do you provide documentation and handover?",
+        question: "What should I prepare before the first discussion?",
         answer:
-          "Yes. A proper handover helps the client team understand architecture, dependencies, and operational expectations after implementation.",
+          "A brief description of the requirement, site locations, existing setup and target timeline is enough to get started. Technical specifications are helpful if available.",
       },
     ],
   },
@@ -280,8 +280,7 @@ export default function Faq() {
                 <div className="mt-8 flex items-center gap-3">
                   <div className="h-2 w-2 rounded-full bg-orange-400" />
                   <p className="text-[13px] text-slate-400">
-                    Clear answers for pre-sales questions, project scoping, and
-                    decision-stage concerns.
+                    Answers to common questions about services, pricing and project support.
                   </p>
                 </div>
               </div>
