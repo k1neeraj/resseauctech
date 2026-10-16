@@ -33,13 +33,11 @@ const CtaBand = () => {
               </p>
 
               <h2 className="max-w-[760px] text-[42px] font-semibold leading-[1.1] tracking-[-0.04em] text-white max-[1200px]:text-[36px] max-[992px]:text-[30px] max-[768px]:text-[24px]">
-                Planning an infrastructure requirement, upgrade or deployment?
+                Need pricing or implementation support for an IT project?
               </h2>
 
               <p className="mt-[16px] max-w-[640px] text-[15px] leading-[1.9] text-[rgba(255,255,255,0.72)]">
-                Speak with Resseaux Tech for practical support across networking,
-                security, cloud, virtualization, storage, backup and
-                implementation-focused environments.
+                Tell us which products or services you need—networking, security, servers, storage, cloud, virtualization, UPS or batteries. Send your BOQ and site details to start the discussion.
               </p>
             </div>
 
@@ -48,7 +46,7 @@ const CtaBand = () => {
                 href="/contact"
                 className="inline-flex items-center justify-center rounded-full bg-[rgba(245,124,0,1)] px-[22px] py-[13px] text-[14px] font-semibold text-white transition-all duration-300 hover:translate-y-[-1px] hover:bg-[rgba(224,108,0,1)]"
               >
-                Get In Touch
+                Request a Quote
               </Link>
 
               <Link
