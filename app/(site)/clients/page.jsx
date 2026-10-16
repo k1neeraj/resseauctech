@@ -17,7 +17,7 @@ import {
 export const metadata = createPageMetadata({
   title: "Clients",
   description:
-    "See key client organisations served by Resseaux Tech across defence, government, research, healthcare, education, energy, infrastructure and enterprise environments in India.",
+    "Explore the organisations listed in our client portfolio and the sectors where we work across IT infrastructure, networking, security and related services.",
   path: "/clients",
 });
 
@@ -41,7 +41,7 @@ const sectors = [
     title: "Defence & Aerospace",
     icon: ShieldCheck,
     description:
-      "Trusted by defence, aerospace and strategic organisations working in highly secure and mission-critical environments.",
+      "We work with requirements from defence, aerospace and other security-sensitive environments.",
     items: [
       "Indian Air Force",
       "Indian Navy",
@@ -73,7 +73,7 @@ const sectors = [
     title: "Research & Innovation",
     icon: Cpu,
     description:
-      "Serving advanced research, innovation and scientific organisations where reliability, performance and security matter most.",
+      "We work with research and scientific organisations that require reliable IT infrastructure.",
     items: [
       "ISRO",
       "C-DAC",
@@ -89,7 +89,7 @@ const sectors = [
     title: "Healthcare & Medical",
     icon: HeartPulse,
     description:
-      "Enabling organisations across healthcare, medical sciences and public health systems with dependable technology solutions.",
+      "We work with healthcare and medical organisations on IT infrastructure requirements.",
     items: [
       "AIIMS",
       "ICMR",
@@ -105,7 +105,7 @@ const sectors = [
     title: "Education & Universities",
     icon: GraduationCap,
     description:
-      "Working with leading academic organisations, universities and higher-education bodies across research and campus environments.",
+      "We work with universities and education organisations on campus and IT infrastructure requirements.",
     items: [
       "IGNOU",
       "University of Delhi",
@@ -121,7 +121,7 @@ const sectors = [
     title: "Energy, Infra & Enterprise",
     icon: Factory,
     description:
-      "Delivering solutions across energy, infrastructure, transport and industrial organisations operating at national scale.",
+      "Our client list also includes organisations from energy, transport, infrastructure and industry.",
     items: [
       "ONGC",
       "Oil India Limited",
@@ -244,8 +244,8 @@ export default function ClientsPage() {
       <PageBanner
         pageName="Clients"
         eyebrow="Trusted Organisations"
-        pageTitle="Trusted by organisations that power India’s critical systems."
-        description="Resseaux Tech has supported organisations across defence, government, research, healthcare, education, public infrastructure and enterprise environments with technology solutions built for reliability, security and scale."
+        pageTitle="Organisations we work with."
+        description="Our client list includes organisations across government, defence, research, healthcare, education, energy, infrastructure and enterprise. Contact us about the IT products and services your organisation needs."
       />
 
       <section className="border-b border-black/8 bg白">
@@ -272,10 +272,7 @@ export default function ClientsPage() {
             A clientele built on trust, compliance and execution
           </h2>
           <p className="mt-5 text-base leading-8 text-[#111827]/68">
-            The company profile reflects a broad client footprint spanning
-            public-sector organisations, defence establishments, scientific
-            bodies, universities, healthcare organisations and large
-            infrastructure-led entities.
+            Our client portfolio includes organisations from the public sector, defence, research, education, healthcare and infrastructure. We work on IT product and service requirements across these environments.
           </p>
         </div>
 
@@ -315,9 +312,7 @@ export default function ClientsPage() {
               Serving high-trust and mission-critical environments
             </h2>
             <p className="mt-5 text-base leading-8 text-[#111827]/68">
-              From strategic defence labs to public-sector enterprises and
-              leading academic organisations, Resseaux Tech’s clientele reflects
-              capability across diverse operating environments.
+              We work with organisations across defence, government, research, healthcare, education, energy and enterprise. The product and service scope depends on each organisation’s requirement.
             </p>
           </div>
 
@@ -369,10 +364,7 @@ export default function ClientsPage() {
               Broad organisational reach across India
             </h2>
             <p className="mt-5 text-base leading-8 text-[#111827]/68">
-              The organisation’s profile highlights client relationships across
-              ministries, research bodies, defence institutions, PSUs,
-              universities, regulatory agencies and transport or civic
-              infrastructure entities.
+              Our listed organisations include ministries, research bodies, defence institutions, public-sector enterprises, universities, regulatory agencies and infrastructure organisations.
             </p>
           </div>
 
