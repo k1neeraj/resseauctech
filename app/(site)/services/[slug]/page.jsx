@@ -22,6 +22,30 @@ export async function generateMetadata({ params }) {
   return {
     title: `${service.title} | Resseaux Tech`,
     description: service.description,
+    alternates: {
+      canonical: `/services/${service.slug}`,
+    },
+    openGraph: {
+      type: "website",
+      url: `/services/${service.slug}`,
+      siteName: "Resseaux Tech",
+      title: `${service.title} | Resseaux Tech`,
+      description: service.description,
+      images: [
+        {
+          url: "/img/logo/logo.png",
+          width: 1200,
+          height: 630,
+          alt: "Resseaux Tech - IT Infrastructure Solutions",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${service.title} | Resseaux Tech`,
+      description: service.description,
+      images: ["/img/logo/logo.png"],
+    },
   };
 }
 
