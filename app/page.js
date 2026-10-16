@@ -8,9 +8,27 @@ import Insights from "@/components/sections/Insights";
 import Services from "@/components/sections/Services";
 import WhyChooseResseaux from "@/components/sections/WhyChooseResseaux";
 
+export const metadata = {
+  alternates: {
+    canonical: "/",
+  },
+};
+
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "Resseaux Tech Private Limited",
+  url: "https://www.resseauxtech.com",
+  logo: "https://www.resseauxtech.com/img/logo/RTPLSquareLogo.png",
+};
+
 export default function Home() {
   return (
     <div>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
       <HeroSection />
       <ClientMarquee />
       <Services />
