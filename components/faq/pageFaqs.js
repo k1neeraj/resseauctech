@@ -88,7 +88,7 @@ export const pageFaqs = {
     {
       question: "Which sectors does Resseaux Tech work with?",
       answer:
-        "The website highlights organisations across government, defence, research, healthcare, education, energy and enterprise sectors.",
+        "We work with organisations across government, defence, research, healthcare, education, energy and enterprise.",
     },
     {
       question: "Can you discuss a requirement for our organisation?",
