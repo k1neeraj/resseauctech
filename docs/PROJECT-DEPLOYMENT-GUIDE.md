@@ -9,7 +9,7 @@ This document is the operational guide for running, deploying, updating and chec
 | Framework | Next.js App Router |
 | UI | React + Tailwind CSS |
 | Package manager | pnpm; lockfile is pnpm-lock.yaml |
-| Production Node version | Node.js 22.x recommended |
+| Production Node version | Node.js 22.x or 24.x; GitHub Actions validates on 22, and Hostinger deployment has succeeded on 24 with the Webpack build |
 | Contact form | Next.js route handler + Nodemailer |
 | Mail transport | Gmail SMTP, secure connection on port 465 |
 | Main branch | main |
@@ -23,7 +23,7 @@ The root metadata, canonical URL, Open Graph/Twitter metadata, robots file and s
 
 ### Requirements
 
-- Node.js 22.x
+- Node.js 22.x or 24.x
 - pnpm 10.x
 - Git
 
@@ -85,7 +85,7 @@ Hostinger currently offers Node.js Web App deployment on supported Business Web 
 2. Sign in to Hostinger hPanel.
 3. Open Websites and choose the option to add a Node.js Web App (the exact menu wording may change).
 4. Choose the GitHub repository k1neeraj/resseauctech and branch main. Use the repository root as the application root.
-5. Select Next.js if hPanel asks for a framework and choose Node.js 22.x.
+5. Select Next.js if hPanel asks for a framework and choose Node.js 22.x or 24.x. GitHub Actions validates the build on Node.js 22; the current Webpack build has also succeeded on Hostinger with Node.js 24.
 6. Check the generated package-manager and build settings. This repository uses pnpm-lock.yaml, so make sure the install process respects that lockfile. If custom commands are available, use:
 
    Install command:
@@ -97,6 +97,8 @@ Hostinger currently offers Node.js Web App deployment on supported Business Web 
    ```bash
    pnpm build
    ```
+
+   The `pnpm build` script invokes `next build --webpack`. Keep this command rather than overriding it with the default `next build`; Webpack is currently selected because Hostinger's default Turbopack build failed after a long timeout without a specific error in the available log.
 
    Start command, if hPanel asks for one:
    ```bash
