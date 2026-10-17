@@ -32,6 +32,12 @@ The refreshed lockfile also resolves the compatible transitive dependencies. The
 
 The repository's dependency workflow was also added at `.github/workflows/refresh-dependencies.yml`.
 
+## Production build bundler note — 17 October 2026
+
+The production script now runs `next build --webpack` (via `pnpm build`) instead of relying on Next.js's default Turbopack production build. Hostinger had repeatedly failed during the default build after about 15 minutes without exposing a specific compiler error. The Webpack-script change was committed in [845a700](https://github.com/k1neeraj/resseauctech/commit/845a700ed56f3f551925da6aa73b3d0232f711b0), the GitHub Actions production build passed, and the site owner confirmed that Hostinger deployment also succeeded with Node.js 24 after this change.
+
+This identifies a working build path, not a proven root cause for the earlier Hostinger failure. Keep the host build command as `pnpm build` so it uses the project's configured script.
+
 ## Updating dependencies again
 
 1. Open the repository's **Actions** tab on GitHub.
