@@ -14,13 +14,14 @@ Production website for **Resseaux Tech Private Limited**, built with Next.js. Th
 - **Contact form:** Next.js route handler + Nodemailer (Gmail SMTP)
 - **SEO:** Page-specific metadata, canonical URLs, Open Graph/Twitter metadata, robots.txt, and a generated XML sitemap
 - **Build validation:** GitHub Actions runs a production build on pushes to main and pull requests targeting main
+- **Production build:** `pnpm build` runs `next build --webpack`. The project uses Webpack for production builds after the default Turbopack build repeatedly failed on Hostinger without showing a specific compiler error.
 - **Deployment:** Run as a Node.js application. The contact form needs the server-side /api/contact route, so a normal static-only export is not the deployment configuration.
 
 ## Quick start
 
 ### Requirements
 
-- Node.js 22.x recommended
+- Node.js 22.x or 24.x (GitHub Actions validates on 22; Hostinger deployment has succeeded on 24 with the current Webpack build)
 - pnpm 10.x
 - Git
 
